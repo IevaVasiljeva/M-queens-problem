@@ -1,0 +1,6 @@
+language ESSENCE' 1.0
+$ Minion SolverNodes: 80962
+$ Minion SolverTotalTime: 6.99401
+$ Minion SolverTimeOut: 0
+$ Savile Row TotalTime: 1.182
+letting result be [0, 4, 0, 10, 0, 6, 0, 2, 0, 8;int(1..10)]

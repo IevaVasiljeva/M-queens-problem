@@ -1,0 +1,42 @@
+forAll row : RANGE .
+	((sum col : int(1..row) . result[row-col+1,col]) <= 1) /\
+	((sum col2 : int(1..BOARD_SIZE-row+1) . result[row+col2-1,col2]) <= 1)
+
+forAll col : RANGE .
+	((sum row : int(1..BOARD_SIZE-col+1) . result[row,row+col-1]) <= 1) /\
+	((sum ))
+
+
+
+letting NUM_OF_QUEENS = sum row,col : RANGE . result[row,col],
+
+minimising NUM_OF_QUEENS
+
+
+
+
+forAll row : RANGE .
+	((sum col : int(1..row) . result[row-col+1,col]) <= 1) /\
+	((sum col2 : int(1..BOARD_SIZE-row+1) . result[row+col2-1,col2]) <= 1),
+
+forAll col : RANGE .
+	((sum row : int(1..BOARD_SIZE-col+1) . result[row,row+col-1]) <= 1) /\
+	((sum row2 : int(col..BOARD_SIZE-col+1) . result[row2,BOARD_SIZE-row2+1]) <= 1),
+
+
+
+	(sum  row2,col2 : RANGE . (row2 + col2 = row + col) * result[row2,col2]) + 
+
+
+
+	$ constraints for diagonals
+forAll col : RANGE .
+	(result[col] = 0) \/
+	(forAll col2 : int(col..BOARD_SIZE) .
+		(result[col2] = 0) \/
+		(!(exists delta : int(1.. BOARD_SIZE -1) . (((result[col] = result[col2] + delta) \/ (result[col] = result[col2] - delta))) /\ ((col2 = col + delta) \/ (col2 = col - delta))))),
+
+
+	$ constraints for / diagonals
+forAll diagSums : int(2..2*BOARD_SIZE) .
+	(sum col : RANGE . (col + result[col])*(result[col] != 0) = diagSums) <= 1,
