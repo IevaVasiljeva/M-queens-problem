@@ -18,7 +18,7 @@ allDiff([col + result[col] | col : RANGE]),
 
 $ constraints for \ diagonals
 forAll col : int(1..BOARD_SIZE-1) .
-	forAll col2 : int(col+1..BOARD_SIZE) . ((col2 - col) != (result[col] - result[col2])),
+	forAll col2 : int(col+1..BOARD_SIZE) . ((col2 - col) != (result[col2] - result[col])),
 
 $ all fields must be under attack
 forAll col : RANGE .

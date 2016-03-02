@@ -37,6 +37,41 @@ forAll col : RANGE .
 		(!(exists delta : int(1.. BOARD_SIZE -1) . (((result[col] = result[col2] + delta) \/ (result[col] = result[col2] - delta))) /\ ((col2 = col + delta) \/ (col2 = col - delta))))),
 
 
-	$ constraints for / diagonals
+$ constraints for / diagonals
 forAll diagSums : int(2..2*BOARD_SIZE) .
 	(sum col : RANGE . (col + result[col])*(result[col] != 0) = diagSums) <= 1,
+
+
+allDiff([col + result[col] | col : RANGE])
+
+
+$ constraints for / diagonals
+forAll col : RANGE .
+	(result[col] = 0) \/ (forAll col2 : int(1..col) . (col2 - col) != (result[col] - result[col2])),
+
+
+
+	forAll DiagSum : int(2..BOARD_SIZE*2) .
+	sum([result[row,col] | row,col : RANGE, row + col = DiagSum]) <= 1,
+
+$ Constraints for the number of queens in top / diagonals and bottom \ ones.
+forAll row : RANGE .
+	(sum col : int(1..row) . result[row-col+1,col]) <= 1,
+
+forAll row : RANGE .
+	(sum col : int(1..BOARD_SIZE-row+1) . result[row+col-1,col]) <= 1,
+
+$ constraints for top \ diagonals and bottom /
+forAll col : RANGE .
+	((sum row : int(1..BOARD_SIZE-col+1) . result[row,row+col-1]) <= 1) /\
+	((sum row2 : int(col..BOARD_SIZE) . result[row2,BOARD_SIZE-row2+col]) <= 1),
+
+
+	forAll DiagSum : int(2..BOARD_SIZE*2) .
+	sum([result[row,col] | row,col : RANGE, row + col = DiagSum]) <= 1,
+
+
+
+(sum row : int(1..BOARD_SIZE/2) . sum(result[row,..])) <= (sum row : int((BOARD_SIZE+2)/2..BOARD_SIZE) . sum(result[row,..])),
+
+(sum col : int(1..BOARD_SIZE/2) . sum(result[..,col])) <= (sum col : int((BOARD_SIZE+2)/2..BOARD_SIZE) . sum(result[..,col])),
