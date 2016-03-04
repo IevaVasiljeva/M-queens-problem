@@ -1,0 +1,65 @@
+\documentclass{report}
+\usepackage{graphicx}
+
+
+\newcommand{\tab}{\hspace*{1.5em}}
+
+\begin{document}
+
+\title{Practical 1: Modelling}
+\date{\parbox{\linewidth}{\centering%
+\textsc{Student ID: 120017875}\endgraf
+\textsc{Module Code: CS4402}\endgraf
+\textsc{Module Title: Constraint Programming}\endgraf
+\textsc{Lecturers: Ian Miguel, Peter Nightingale}\endgraf
+\today}}
+\maketitle
+
+\section*{Overview}
+\tab This practical is centred around constraints modelling. Two models for describing the  is to research and compare various constraint models of M-Queens puzzle
+
+\section*{Models of M-Queens puzzle}
+
+\subsection{0/1	model (part 1)}
+The first part of this practical is to write a constraint model (in Essence’ ) of the MQueens
+puzzle. For this part you must use a viewpoint in which each square of the
+chess board is represented by a variable with domain {0,1}, where an assignment of
+the value 1 means that a queen is placed in the associated square, and an assignment
+of 0 means that the square is unoccupied.
+
+\subsection{My own	model (part 2)}
+
+
+It is sensible to include both SR and Minion times in your report, since SR does perform useful transformations to improve your model, but at the cost of some time spent. Not only that, but the time spent in SR will vary according to the input model/instance, so this is definitely something to measure and discuss in your report.
+
+As discussed in lectures, as well as time, you might think about reporting search nodes in your results. This will give you some indication of the size of the search Minion is doing relative to the modelling choices you have made. It can also be instructive if you have made what you thought was an improvement to your model but the solving process then takes longer. It might be the case that search is being saved, but the cost of propagating the extra constraints (for example) that you have added is taking too long - this can show up as a reduced node count but increased time taken.
+
+%\begin{figure} [\textwidth]
+%\hspace{2cm}
+%\includegraphics{ImagePath.jpg}
+%\caption{Description}
+%\end{figure}
+
+\begin{itemize}
+	\item These
+	\item Are
+	\item Bulletpoints
+\end{itemize}
+
+
+\newpage
+
+\par Started new page
+
+
+\begin{thebibliography}{9}
+
+\bibitem{itemReference}
+  Author,
+  \emph{Book Title},
+  publisher,
+  year
+
+\end{thebibliography}
+
+\end{document}

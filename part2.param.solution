@@ -1,8 +1,6 @@
 language ESSENCE' 1.0
-$ Minion SolverNodes: 104
-$ Minion SolverTotalTime: 0.002802
+$ Minion SolverNodes: 381026
+$ Minion SolverTotalTime: 54.8302
 $ Minion SolverTimeOut: 0
-$ Savile Row TotalTime: 0.464
-letting columns be [0, 0, 1, 1, 0;int(1..5)]
-letting frontDiagonals be [0, 0, 0, 0, 1, 1, 1, 0, 0;int(2..10)]
-letting rows be [0, 0, 1, 1, 0;int(1..5)]
+$ Savile Row TotalTime: 1.854
+letting result be [0, 2, 0, 9, 6, 8, 11, 0, 7, 0, 4, 0;int(1..12)]

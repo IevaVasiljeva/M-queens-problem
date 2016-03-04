@@ -5,15 +5,24 @@ given BOARD_SIZE : int
 
 letting RANGE be domain int(1..BOARD_SIZE)
 
-letting minQueens = BOARD_SIZE/2
+$ General lower bound.
+letting minQueens1 = BOARD_SIZE/2
+
+$ Lower bound for number of queens where M can be expressed as 4k+1
+letting minQueens2 = (BOARD_SIZE%4 = 1) * (BOARD_SIZE/2 + 1)
+
+$ Take the maximum of the two
+letting minQueens = max(minQueens1, minQueens2)
 
 $ Want to find an M*M board of {0,1}, where 1 denotes the cell containing a queen.
 find result : matrix indexed by [RANGE, RANGE] of int(0,1)
 
 $ Want to find the smallest possible solution.
-minimising sum(flatten(result))
+$ minimising sum(flatten(result))
 
 such that
+
+sum(flatten(result)) = 5,
 
 $sum(flatten(result)) >= minQueens,
 
@@ -21,6 +30,11 @@ $(sum row : int(1..BOARD_SIZE/2) . (sum col : RANGE . result[row,col]*)) <= (sum
 
 $(sum col : int(1..BOARD_SIZE/2) . sum(result[..,col])) <= (sum col : int((BOARD_SIZE+2)/2..BOARD_SIZE) . sum(result[..,col])),
 
+forAll index : int(1..BOARD_SIZE/2) .
+	result[index,..] >=lex result[BOARD_SIZE-index+1,..] \/ (sum(result[..,index]) = 0),
+
+$forAll index : int(1..BOARD_SIZE/2) .
+$	(result[..,index] <=lex result[..,BOARD_SIZE-index+1]) \/ (sum(result[..,index]) = 0) \/ (sum(result[..,BOARD_SIZE-index+1]) = 0),
 
 $ Queens do not attack each other - no more than one in each row.
 forAll row : RANGE . sum(result[row,..]) <= 1,
