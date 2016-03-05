@@ -1,0 +1,2273 @@
+MINION 3
+# AC-CSE-Times_number = 0
+# AC-CSE-Times_eliminated_expressions = 0
+# AC-CSE-Times_total_size = 0
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# AC-CSE-Or_number = 0
+# AC-CSE-Or_eliminated_expressions = 0
+# AC-CSE-Or_total_size = 0
+# AC-CSE-And_number = 0
+# AC-CSE-And_eliminated_expressions = 0
+# AC-CSE-And_total_size = 0
+# AC-CSE-Sum_number = 422
+# AC-CSE-Sum_eliminated_expressions = 2160
+# AC-CSE-Sum_total_size = 18689
+# CSE_active_number = 96
+# CSE_active_eliminated_expressions = 264
+# CSE_active_total_size = 768
+**VARIABLES**
+DISCRETE result_00000_00000 #
+{0..1}
+DISCRETE result_00000_00001 #
+{0..1}
+DISCRETE result_00000_00002 #
+{0..1}
+DISCRETE result_00000_00003 #
+{0..1}
+DISCRETE result_00000_00004 #
+{0..1}
+DISCRETE result_00000_00005 #
+{0..1}
+DISCRETE result_00000_00006 #
+{0..1}
+DISCRETE result_00000_00007 #
+{0..1}
+DISCRETE result_00000_00008 #
+{0..1}
+DISCRETE result_00000_00009 #
+{0..1}
+DISCRETE result_00001_00000 #
+{0..1}
+DISCRETE result_00001_00001 #
+{0..1}
+DISCRETE result_00001_00002 #
+{0..1}
+DISCRETE result_00001_00003 #
+{0..1}
+DISCRETE result_00001_00004 #
+{0..1}
+DISCRETE result_00001_00005 #
+{0..1}
+DISCRETE result_00001_00006 #
+{0..1}
+DISCRETE result_00001_00007 #
+{0..1}
+DISCRETE result_00001_00008 #
+{0..1}
+DISCRETE result_00001_00009 #
+{0..1}
+DISCRETE result_00002_00000 #
+{0..1}
+DISCRETE result_00002_00001 #
+{0..1}
+DISCRETE result_00002_00002 #
+{0..1}
+DISCRETE result_00002_00003 #
+{0..1}
+DISCRETE result_00002_00004 #
+{0..1}
+DISCRETE result_00002_00005 #
+{0..1}
+DISCRETE result_00002_00006 #
+{0..1}
+DISCRETE result_00002_00007 #
+{0..1}
+DISCRETE result_00002_00008 #
+{0..1}
+DISCRETE result_00002_00009 #
+{0..1}
+DISCRETE result_00003_00000 #
+{0..1}
+DISCRETE result_00003_00001 #
+{0..1}
+DISCRETE result_00003_00002 #
+{0..1}
+DISCRETE result_00003_00003 #
+{0..1}
+DISCRETE result_00003_00004 #
+{0..1}
+DISCRETE result_00003_00005 #
+{0..1}
+DISCRETE result_00003_00006 #
+{0..1}
+DISCRETE result_00003_00007 #
+{0..1}
+DISCRETE result_00003_00008 #
+{0..1}
+DISCRETE result_00003_00009 #
+{0..1}
+DISCRETE result_00004_00000 #
+{0..1}
+DISCRETE result_00004_00001 #
+{0..1}
+DISCRETE result_00004_00002 #
+{0..1}
+DISCRETE result_00004_00003 #
+{0..1}
+DISCRETE result_00004_00004 #
+{0..1}
+DISCRETE result_00004_00005 #
+{0..1}
+DISCRETE result_00004_00006 #
+{0..1}
+DISCRETE result_00004_00007 #
+{0..1}
+DISCRETE result_00004_00008 #
+{0..1}
+DISCRETE result_00004_00009 #
+{0..1}
+DISCRETE result_00005_00000 #
+{0..1}
+DISCRETE result_00005_00001 #
+{0..1}
+DISCRETE result_00005_00002 #
+{0..1}
+DISCRETE result_00005_00003 #
+{0..1}
+DISCRETE result_00005_00004 #
+{0..1}
+DISCRETE result_00005_00005 #
+{0..1}
+DISCRETE result_00005_00006 #
+{0..1}
+DISCRETE result_00005_00007 #
+{0..1}
+DISCRETE result_00005_00008 #
+{0..1}
+DISCRETE result_00005_00009 #
+{0..1}
+DISCRETE result_00006_00000 #
+{0..1}
+DISCRETE result_00006_00001 #
+{0..1}
+DISCRETE result_00006_00002 #
+{0..1}
+DISCRETE result_00006_00003 #
+{0..1}
+DISCRETE result_00006_00004 #
+{0..1}
+DISCRETE result_00006_00005 #
+{0..1}
+DISCRETE result_00006_00006 #
+{0..1}
+DISCRETE result_00006_00007 #
+{0..1}
+DISCRETE result_00006_00008 #
+{0..1}
+DISCRETE result_00006_00009 #
+{0..1}
+DISCRETE result_00007_00000 #
+{0..1}
+DISCRETE result_00007_00001 #
+{0..1}
+DISCRETE result_00007_00002 #
+{0..1}
+DISCRETE result_00007_00003 #
+{0..1}
+DISCRETE result_00007_00004 #
+{0..1}
+DISCRETE result_00007_00005 #
+{0..1}
+DISCRETE result_00007_00006 #
+{0..1}
+DISCRETE result_00007_00007 #
+{0..1}
+DISCRETE result_00007_00008 #
+{0..1}
+DISCRETE result_00007_00009 #
+{0..1}
+DISCRETE result_00008_00000 #
+{0..1}
+DISCRETE result_00008_00001 #
+{0..1}
+DISCRETE result_00008_00002 #
+{0..1}
+DISCRETE result_00008_00003 #
+{0..1}
+DISCRETE result_00008_00004 #
+{0..1}
+DISCRETE result_00008_00005 #
+{0..1}
+DISCRETE result_00008_00006 #
+{0..1}
+DISCRETE result_00008_00007 #
+{0..1}
+DISCRETE result_00008_00008 #
+{0..1}
+DISCRETE result_00008_00009 #
+{0..1}
+DISCRETE result_00009_00000 #
+{0..1}
+DISCRETE result_00009_00001 #
+{0..1}
+DISCRETE result_00009_00002 #
+{0..1}
+DISCRETE result_00009_00003 #
+{0..1}
+DISCRETE result_00009_00004 #
+{0..1}
+DISCRETE result_00009_00005 #
+{0..1}
+DISCRETE result_00009_00006 #
+{0..1}
+DISCRETE result_00009_00007 #
+{0..1}
+DISCRETE result_00009_00008 #
+{0..1}
+DISCRETE result_00009_00009 #
+{0..1}
+DISCRETE aux8 #(result_00000_00000 + result_00000_00001 + result_00000_00002 + result_00000_00003 + result_00000_00004 + result_00000_00005 + result_00000_00006 + result_00000_00007 + result_00000_00008 + result_00000_00009 + result_00001_00000 + result_00001_00001 + result_00001_00002 + result_00001_00003 + result_00001_00004 + result_00001_00005 + result_00001_00006 + result_00001_00007 + result_00001_00008 + result_00001_00009 + result_00002_00000 + result_00002_00001 + result_00002_00002 + result_00002_00003 + result_00002_00004 + result_00002_00005 + result_00002_00006 + result_00002_00007 + result_00002_00008 + result_00002_00009 + result_00003_00000 + result_00003_00001 + result_00003_00002 + result_00003_00003 + result_00003_00004 + result_00003_00005 + result_00003_00006 + result_00003_00007 + result_00003_00008 + result_00003_00009 + result_00004_00000 + result_00004_00001 + result_00004_00002 + result_00004_00003 + result_00004_00004 + result_00004_00005 + result_00004_00006 + result_00004_00007 + result_00004_00008 + result_00004_00009 + result_00005_00000 + result_00005_00001 + result_00005_00002 + result_00005_00003 + result_00005_00004 + result_00005_00005 + result_00005_00006 + result_00005_00007 + result_00005_00008 + result_00005_00009 + result_00006_00000 + result_00006_00001 + result_00006_00002 + result_00006_00003 + result_00006_00004 + result_00006_00005 + result_00006_00006 + result_00006_00007 + result_00006_00008 + result_00006_00009 + result_00007_00000 + result_00007_00001 + result_00007_00002 + result_00007_00003 + result_00007_00004 + result_00007_00005 + result_00007_00006 + result_00007_00007 + result_00007_00008 + result_00007_00009 + result_00008_00000 + result_00008_00001 + result_00008_00002 + result_00008_00003 + result_00008_00004 + result_00008_00005 + result_00008_00006 + result_00008_00007 + result_00008_00008 + result_00008_00009 + result_00009_00000 + result_00009_00001 + result_00009_00002 + result_00009_00003 + result_00009_00004 + result_00009_00005 + result_00009_00006 + result_00009_00007 + result_00009_00008 + result_00009_00009)
+{1..10}
+DISCRETE aux9 #AC-CSE-Generic-+: 10 occurrences of: (result_00000_00000 + result_00000_00001)
+{0..2}
+DISCRETE aux10 #AC-CSE-Generic-+: 10 occurrences of: (result_00000_00003 + result_00000_00002)
+{0..2}
+DISCRETE aux11 #AC-CSE-Generic-+: 10 occurrences of: (result_00000_00004 + result_00000_00005)
+{0..2}
+DISCRETE aux12 #AC-CSE-Generic-+: 10 occurrences of: (result_00000_00007 + result_00000_00006)
+{0..2}
+DISCRETE aux13 #AC-CSE-Generic-+: 10 occurrences of: (result_00000_00009 + result_00000_00008)
+{0..2}
+DISCRETE aux14 #AC-CSE-Generic-+: 10 occurrences of: (result_00005_00000 + result_00005_00001)
+{0..2}
+DISCRETE aux15 #AC-CSE-Generic-+: 10 occurrences of: (result_00005_00002 + result_00005_00003)
+{0..2}
+DISCRETE aux16 #AC-CSE-Generic-+: 10 occurrences of: (result_00005_00004 + result_00005_00005)
+{0..2}
+DISCRETE aux17 #AC-CSE-Generic-+: 10 occurrences of: (result_00005_00006 + result_00005_00007)
+{0..2}
+DISCRETE aux18 #AC-CSE-Generic-+: 10 occurrences of: (result_00005_00008 + result_00005_00009)
+{0..2}
+DISCRETE aux19 #AC-CSE-Generic-+: 10 occurrences of: (result_00001_00000 + result_00001_00001)
+{0..2}
+DISCRETE aux20 #AC-CSE-Generic-+: 10 occurrences of: (result_00001_00003 + result_00001_00002)
+{0..2}
+DISCRETE aux21 #AC-CSE-Generic-+: 10 occurrences of: (result_00001_00005 + result_00001_00004)
+{0..2}
+DISCRETE aux22 #AC-CSE-Generic-+: 10 occurrences of: (result_00001_00007 + result_00001_00006)
+{0..2}
+DISCRETE aux23 #AC-CSE-Generic-+: 10 occurrences of: (result_00001_00009 + result_00001_00008)
+{0..2}
+DISCRETE aux24 #AC-CSE-Generic-+: 10 occurrences of: (result_00006_00000 + result_00006_00001)
+{0..2}
+DISCRETE aux25 #AC-CSE-Generic-+: 10 occurrences of: (result_00006_00003 + result_00006_00002)
+{0..2}
+DISCRETE aux26 #AC-CSE-Generic-+: 10 occurrences of: (result_00006_00004 + result_00006_00005)
+{0..2}
+DISCRETE aux27 #AC-CSE-Generic-+: 10 occurrences of: (result_00006_00007 + result_00006_00006)
+{0..2}
+DISCRETE aux28 #AC-CSE-Generic-+: 10 occurrences of: (result_00006_00009 + result_00006_00008)
+{0..2}
+DISCRETE aux29 #AC-CSE-Generic-+: 10 occurrences of: (result_00002_00000 + result_00002_00001)
+{0..2}
+DISCRETE aux30 #AC-CSE-Generic-+: 10 occurrences of: (result_00002_00003 + result_00002_00002)
+{0..2}
+DISCRETE aux31 #AC-CSE-Generic-+: 10 occurrences of: (result_00002_00004 + result_00002_00005)
+{0..2}
+DISCRETE aux32 #AC-CSE-Generic-+: 10 occurrences of: (result_00002_00007 + result_00002_00006)
+{0..2}
+DISCRETE aux33 #AC-CSE-Generic-+: 10 occurrences of: (result_00002_00009 + result_00002_00008)
+{0..2}
+DISCRETE aux34 #AC-CSE-Generic-+: 10 occurrences of: (result_00007_00000 + result_00007_00001)
+{0..2}
+DISCRETE aux35 #AC-CSE-Generic-+: 10 occurrences of: (result_00007_00003 + result_00007_00002)
+{0..2}
+DISCRETE aux36 #AC-CSE-Generic-+: 10 occurrences of: (result_00007_00004 + result_00007_00005)
+{0..2}
+DISCRETE aux37 #AC-CSE-Generic-+: 10 occurrences of: (result_00007_00007 + result_00007_00006)
+{0..2}
+DISCRETE aux38 #AC-CSE-Generic-+: 10 occurrences of: (result_00007_00008 + result_00007_00009)
+{0..2}
+DISCRETE aux39 #AC-CSE-Generic-+: 10 occurrences of: (result_00003_00000 + result_00003_00001)
+{0..2}
+DISCRETE aux40 #AC-CSE-Generic-+: 10 occurrences of: (result_00003_00003 + result_00003_00002)
+{0..2}
+DISCRETE aux41 #AC-CSE-Generic-+: 10 occurrences of: (result_00003_00005 + result_00003_00004)
+{0..2}
+DISCRETE aux42 #AC-CSE-Generic-+: 10 occurrences of: (result_00003_00007 + result_00003_00006)
+{0..2}
+DISCRETE aux43 #AC-CSE-Generic-+: 10 occurrences of: (result_00003_00009 + result_00003_00008)
+{0..2}
+DISCRETE aux44 #AC-CSE-Generic-+: 10 occurrences of: (result_00008_00000 + result_00008_00001)
+{0..2}
+DISCRETE aux45 #AC-CSE-Generic-+: 10 occurrences of: (result_00008_00003 + result_00008_00002)
+{0..2}
+DISCRETE aux46 #AC-CSE-Generic-+: 10 occurrences of: (result_00008_00004 + result_00008_00005)
+{0..2}
+DISCRETE aux47 #AC-CSE-Generic-+: 10 occurrences of: (result_00008_00007 + result_00008_00006)
+{0..2}
+DISCRETE aux48 #AC-CSE-Generic-+: 10 occurrences of: (result_00008_00009 + result_00008_00008)
+{0..2}
+DISCRETE aux49 #AC-CSE-Generic-+: 10 occurrences of: (result_00004_00000 + result_00004_00001)
+{0..2}
+DISCRETE aux50 #AC-CSE-Generic-+: 10 occurrences of: (result_00004_00003 + result_00004_00002)
+{0..2}
+DISCRETE aux51 #AC-CSE-Generic-+: 10 occurrences of: (result_00004_00005 + result_00004_00004)
+{0..2}
+DISCRETE aux52 #AC-CSE-Generic-+: 10 occurrences of: (result_00004_00007 + result_00004_00006)
+{0..2}
+DISCRETE aux53 #AC-CSE-Generic-+: 10 occurrences of: (result_00004_00009 + result_00004_00008)
+{0..2}
+DISCRETE aux54 #AC-CSE-Generic-+: 10 occurrences of: (result_00009_00000 + result_00009_00001)
+{0..2}
+DISCRETE aux55 #AC-CSE-Generic-+: 10 occurrences of: (result_00009_00003 + result_00009_00002)
+{0..2}
+DISCRETE aux56 #AC-CSE-Generic-+: 10 occurrences of: (result_00009_00005 + result_00009_00004)
+{0..2}
+DISCRETE aux57 #AC-CSE-Generic-+: 10 occurrences of: (result_00009_00006 + result_00009_00007)
+{0..2}
+DISCRETE aux58 #AC-CSE-Generic-+: 10 occurrences of: (result_00009_00009 + result_00009_00008)
+{0..2}
+DISCRETE aux59 #AC-CSE-Generic-+: 10 occurrences of: ((0 != result_00008_00001) + (0 != result_00004_00005) + (0 != result_00003_00006) + (0 != result_00009_00000) + (result_00006_00003 != 0) + (result_00001_00008 != 0) + (result_00005_00004 != 0) + (result_00000_00009 != 0) + (result_00002_00007 != 0) + (result_00007_00002 != 0))
+{0..10}
+DISCRETE aux60 #AC-CSE-Generic-+: 10 occurrences of: ((0 != result_00004_00004) + (0 != result_00008_00008) + (0 != result_00009_00009) + (0 != result_00003_00003) + (result_00002_00002 != 0) + (result_00006_00006 != 0) + (result_00001_00001 != 0) + (result_00007_00007 != 0) + (result_00005_00005 != 0) + (result_00000_00000 != 0))
+{0..10}
+DISCRETE aux61 #AC-CSE-Generic-+: 9 occurrences of: (result_00005_00000 + result_00000_00000)
+{0..2}
+DISCRETE aux62 #AC-CSE-Generic-+: 9 occurrences of: (result_00005_00001 + result_00000_00001)
+{0..2}
+DISCRETE aux63 #AC-CSE-Generic-+: 9 occurrences of: (result_00005_00002 + result_00000_00002)
+{0..2}
+DISCRETE aux64 #AC-CSE-Generic-+: 9 occurrences of: (result_00005_00003 + result_00000_00003)
+{0..2}
+DISCRETE aux65 #AC-CSE-Generic-+: 9 occurrences of: (result_00005_00004 + result_00000_00004)
+{0..2}
+DISCRETE aux66 #AC-CSE-Generic-+: 9 occurrences of: (result_00005_00005 + result_00000_00005)
+{0..2}
+DISCRETE aux67 #AC-CSE-Generic-+: 9 occurrences of: (result_00005_00006 + result_00000_00006)
+{0..2}
+DISCRETE aux68 #AC-CSE-Generic-+: 9 occurrences of: (result_00005_00007 + result_00000_00007)
+{0..2}
+DISCRETE aux69 #AC-CSE-Generic-+: 9 occurrences of: (result_00005_00008 + result_00000_00008)
+{0..2}
+DISCRETE aux70 #AC-CSE-Generic-+: 9 occurrences of: (result_00005_00009 + result_00000_00009)
+{0..2}
+DISCRETE aux71 #AC-CSE-Generic-+: 9 occurrences of: (result_00006_00000 + result_00001_00000)
+{0..2}
+DISCRETE aux72 #AC-CSE-Generic-+: 9 occurrences of: (result_00006_00001 + result_00001_00001)
+{0..2}
+DISCRETE aux73 #AC-CSE-Generic-+: 9 occurrences of: (result_00006_00002 + result_00001_00002)
+{0..2}
+DISCRETE aux74 #AC-CSE-Generic-+: 9 occurrences of: (result_00006_00003 + result_00001_00003)
+{0..2}
+DISCRETE aux75 #AC-CSE-Generic-+: 9 occurrences of: (result_00006_00004 + result_00001_00004)
+{0..2}
+DISCRETE aux76 #AC-CSE-Generic-+: 9 occurrences of: (result_00006_00005 + result_00001_00005)
+{0..2}
+DISCRETE aux77 #AC-CSE-Generic-+: 9 occurrences of: (result_00006_00006 + result_00001_00006)
+{0..2}
+DISCRETE aux78 #AC-CSE-Generic-+: 9 occurrences of: (result_00006_00007 + result_00001_00007)
+{0..2}
+DISCRETE aux79 #AC-CSE-Generic-+: 9 occurrences of: (result_00006_00008 + result_00001_00008)
+{0..2}
+DISCRETE aux80 #AC-CSE-Generic-+: 9 occurrences of: (result_00006_00009 + result_00001_00009)
+{0..2}
+DISCRETE aux81 #AC-CSE-Generic-+: 9 occurrences of: (result_00007_00000 + result_00002_00000)
+{0..2}
+DISCRETE aux82 #AC-CSE-Generic-+: 9 occurrences of: (result_00007_00001 + result_00002_00001)
+{0..2}
+DISCRETE aux83 #AC-CSE-Generic-+: 9 occurrences of: (result_00007_00002 + result_00002_00002)
+{0..2}
+DISCRETE aux84 #AC-CSE-Generic-+: 9 occurrences of: (result_00007_00003 + result_00002_00003)
+{0..2}
+DISCRETE aux85 #AC-CSE-Generic-+: 9 occurrences of: (result_00007_00004 + result_00002_00004)
+{0..2}
+DISCRETE aux86 #AC-CSE-Generic-+: 9 occurrences of: (result_00007_00005 + result_00002_00005)
+{0..2}
+DISCRETE aux87 #AC-CSE-Generic-+: 9 occurrences of: (result_00007_00006 + result_00002_00006)
+{0..2}
+DISCRETE aux88 #AC-CSE-Generic-+: 9 occurrences of: (result_00007_00007 + result_00002_00007)
+{0..2}
+DISCRETE aux89 #AC-CSE-Generic-+: 9 occurrences of: (result_00007_00008 + result_00002_00008)
+{0..2}
+DISCRETE aux90 #AC-CSE-Generic-+: 9 occurrences of: (result_00002_00009 + result_00007_00009)
+{0..2}
+DISCRETE aux91 #AC-CSE-Generic-+: 9 occurrences of: (result_00008_00000 + result_00003_00000)
+{0..2}
+DISCRETE aux92 #AC-CSE-Generic-+: 9 occurrences of: (result_00008_00001 + result_00003_00001)
+{0..2}
+DISCRETE aux93 #AC-CSE-Generic-+: 9 occurrences of: (result_00008_00002 + result_00003_00002)
+{0..2}
+DISCRETE aux94 #AC-CSE-Generic-+: 9 occurrences of: (result_00008_00003 + result_00003_00003)
+{0..2}
+DISCRETE aux95 #AC-CSE-Generic-+: 9 occurrences of: (result_00008_00004 + result_00003_00004)
+{0..2}
+DISCRETE aux96 #AC-CSE-Generic-+: 9 occurrences of: (result_00008_00005 + result_00003_00005)
+{0..2}
+DISCRETE aux97 #AC-CSE-Generic-+: 9 occurrences of: (result_00008_00006 + result_00003_00006)
+{0..2}
+DISCRETE aux98 #AC-CSE-Generic-+: 9 occurrences of: (result_00008_00007 + result_00003_00007)
+{0..2}
+DISCRETE aux99 #AC-CSE-Generic-+: 9 occurrences of: (result_00008_00008 + result_00003_00008)
+{0..2}
+DISCRETE aux100 #AC-CSE-Generic-+: 9 occurrences of: (result_00008_00009 + result_00003_00009)
+{0..2}
+DISCRETE aux101 #AC-CSE-Generic-+: 9 occurrences of: (result_00004_00000 + result_00009_00000)
+{0..2}
+DISCRETE aux102 #AC-CSE-Generic-+: 9 occurrences of: (result_00004_00001 + result_00009_00001)
+{0..2}
+DISCRETE aux103 #AC-CSE-Generic-+: 9 occurrences of: (result_00004_00002 + result_00009_00002)
+{0..2}
+DISCRETE aux104 #AC-CSE-Generic-+: 9 occurrences of: (result_00009_00003 + result_00004_00003)
+{0..2}
+DISCRETE aux105 #AC-CSE-Generic-+: 9 occurrences of: (result_00004_00004 + result_00009_00004)
+{0..2}
+DISCRETE aux106 #AC-CSE-Generic-+: 9 occurrences of: (result_00004_00005 + result_00009_00005)
+{0..2}
+DISCRETE aux107 #AC-CSE-Generic-+: 9 occurrences of: (result_00009_00006 + result_00004_00006)
+{0..2}
+DISCRETE aux108 #AC-CSE-Generic-+: 9 occurrences of: (result_00009_00007 + result_00004_00007)
+{0..2}
+DISCRETE aux109 #AC-CSE-Generic-+: 9 occurrences of: (result_00009_00008 + result_00004_00008)
+{0..2}
+DISCRETE aux110 #AC-CSE-Generic-+: 9 occurrences of: (result_00004_00009 + result_00009_00009)
+{0..2}
+DISCRETE aux111 #AC-CSE-Generic-+: 9 occurrences of: ((0 != result_00004_00003) + (0 != result_00008_00007) + (0 != result_00009_00008) + (0 != result_00003_00002) + (result_00006_00005 != 0) + (result_00002_00001 != 0) + (result_00007_00006 != 0) + (result_00001_00000 != 0))
+{0..8}
+DISCRETE aux112 #AC-CSE-Generic-+: 9 occurrences of: ((0 != result_00008_00002) + (0 != result_00004_00006) + (0 != result_00009_00001) + (0 != result_00003_00007) + (result_00006_00004 != 0) + (result_00002_00008 != 0) + (result_00007_00003 != 0) + (result_00001_00009 != 0))
+{0..8}
+DISCRETE aux113 #AC-CSE-Generic-+: 9 occurrences of: ((result_00002_00006 != 0) + (result_00007_00001 != 0) + (result_00000_00008 != 0) + (result_00005_00003 != 0) + (result_00001_00007 != 0) + (result_00006_00002 != 0) + (0 != result_00003_00005) + (0 != result_00008_00000))
+{0..8}
+DISCRETE aux114 #AC-CSE-Generic-+: 9 occurrences of: ((0 != result_00008_00009) + (0 != result_00003_00004) + (result_00006_00007 != 0) + (result_00001_00002 != 0) + (result_00005_00006 != 0) + (result_00000_00001 != 0) + (result_00002_00003 != 0) + (result_00007_00008 != 0))
+{0..8}
+DISCRETE aux115 #AC-CSE-Generic-+: 8 occurrences of: ((result_00006_00001 != 0) + (result_00001_00006 != 0) + (result_00002_00005 != 0) + (result_00007_00000 != 0) + (result_00005_00002 != 0) + (result_00000_00007 != 0))
+{0..6}
+DISCRETE aux116 #AC-CSE-Generic-+: 8 occurrences of: ((result_00006_00008 != 0) + (result_00001_00003 != 0) + (result_00005_00007 != 0) + (result_00002_00004 != 0) + (result_00007_00009 != 0) + (result_00000_00002 != 0))
+{0..6}
+DISCRETE aux117 #AC-CSE-Generic-+: 8 occurrences of: ((0 != result_00004_00002) + (0 != result_00009_00007) + (result_00002_00000 != 0) + (result_00007_00005 != 0) + (0 != result_00008_00006) + (0 != result_00003_00001))
+{0..6}
+DISCRETE aux118 #AC-CSE-Generic-+: 8 occurrences of: ((0 != result_00008_00003) + (0 != result_00004_00007) + (0 != result_00009_00002) + (0 != result_00003_00008) + (result_00002_00009 != 0) + (result_00007_00004 != 0))
+{0..6}
+DISCRETE aux119 #AC-CSE-Generic-+: 8 occurrences of: (aux9 + aux10)
+{0..4}
+DISCRETE aux120 #AC-CSE-Generic-+: 8 occurrences of: (aux12 + aux11)
+{0..4}
+DISCRETE aux121 #AC-CSE-Generic-+: 8 occurrences of: (aux14 + aux15)
+{0..4}
+DISCRETE aux122 #AC-CSE-Generic-+: 8 occurrences of: (aux17 + aux16)
+{0..4}
+DISCRETE aux123 #AC-CSE-Generic-+: 8 occurrences of: (aux20 + aux19)
+{0..4}
+DISCRETE aux124 #AC-CSE-Generic-+: 8 occurrences of: (aux22 + aux21)
+{0..4}
+DISCRETE aux125 #AC-CSE-Generic-+: 8 occurrences of: (aux25 + aux24)
+{0..4}
+DISCRETE aux126 #AC-CSE-Generic-+: 8 occurrences of: (aux27 + aux26)
+{0..4}
+DISCRETE aux127 #AC-CSE-Generic-+: 8 occurrences of: (aux30 + aux29)
+{0..4}
+DISCRETE aux128 #AC-CSE-Generic-+: 8 occurrences of: (aux32 + aux31)
+{0..4}
+DISCRETE aux129 #AC-CSE-Generic-+: 8 occurrences of: (aux34 + aux35)
+{0..4}
+DISCRETE aux130 #AC-CSE-Generic-+: 8 occurrences of: (aux37 + aux36)
+{0..4}
+DISCRETE aux131 #AC-CSE-Generic-+: 8 occurrences of: (aux39 + aux40)
+{0..4}
+DISCRETE aux132 #AC-CSE-Generic-+: 8 occurrences of: (aux42 + aux41)
+{0..4}
+DISCRETE aux133 #AC-CSE-Generic-+: 8 occurrences of: (aux45 + aux44)
+{0..4}
+DISCRETE aux134 #AC-CSE-Generic-+: 8 occurrences of: (aux47 + aux46)
+{0..4}
+DISCRETE aux135 #AC-CSE-Generic-+: 8 occurrences of: (aux49 + aux50)
+{0..4}
+DISCRETE aux136 #AC-CSE-Generic-+: 8 occurrences of: (aux52 + aux51)
+{0..4}
+DISCRETE aux137 #AC-CSE-Generic-+: 8 occurrences of: (aux54 + aux55)
+{0..4}
+DISCRETE aux138 #AC-CSE-Generic-+: 8 occurrences of: (aux57 + aux56)
+{0..4}
+DISCRETE aux139 #AC-CSE-Generic-+: 8 occurrences of: (aux111 + (result_00005_00004 != 0))
+{0..9}
+DISCRETE aux140 #AC-CSE-Generic-+: 8 occurrences of: (aux112 + (result_00005_00005 != 0))
+{0..9}
+DISCRETE aux141 #AC-CSE-Generic-+: 8 occurrences of: ((0 != result_00004_00004) + aux113)
+{0..9}
+DISCRETE aux142 #AC-CSE-Generic-+: 8 occurrences of: ((0 != result_00004_00005) + aux114)
+{0..9}
+DISCRETE aux143 #AC-CSE-Generic-+: 7 occurrences of: ((0 != result_00004_00001) + (0 != result_00008_00005) + (0 != result_00003_00000) + (0 != result_00009_00006))
+{0..4}
+DISCRETE aux144 #AC-CSE-Generic-+: 7 occurrences of: ((result_00006_00009 != 0) + (result_00001_00004 != 0) + (result_00000_00003 != 0) + (result_00005_00008 != 0))
+{0..4}
+DISCRETE aux145 #AC-CSE-Generic-+: 7 occurrences of: ((result_00006_00000 != 0) + (result_00001_00005 != 0) + (result_00000_00006 != 0) + (result_00005_00001 != 0))
+{0..4}
+DISCRETE aux146 #AC-CSE-Generic-+: 7 occurrences of: ((0 != result_00008_00004) + (0 != result_00004_00008) + (0 != result_00003_00009) + (0 != result_00009_00003))
+{0..4}
+DISCRETE aux147 #AC-CSE-Generic-+: 7 occurrences of: (aux71 + aux61)
+{0..4}
+DISCRETE aux148 #AC-CSE-Generic-+: 7 occurrences of: (aux72 + aux62)
+{0..4}
+DISCRETE aux149 #AC-CSE-Generic-+: 7 occurrences of: (aux73 + aux63)
+{0..4}
+DISCRETE aux150 #AC-CSE-Generic-+: 7 occurrences of: (aux74 + aux64)
+{0..4}
+DISCRETE aux151 #AC-CSE-Generic-+: 7 occurrences of: (aux75 + aux65)
+{0..4}
+DISCRETE aux152 #AC-CSE-Generic-+: 7 occurrences of: (aux76 + aux66)
+{0..4}
+DISCRETE aux153 #AC-CSE-Generic-+: 7 occurrences of: (aux77 + aux67)
+{0..4}
+DISCRETE aux154 #AC-CSE-Generic-+: 7 occurrences of: (aux78 + aux68)
+{0..4}
+DISCRETE aux155 #AC-CSE-Generic-+: 7 occurrences of: (aux69 + aux79)
+{0..4}
+DISCRETE aux156 #AC-CSE-Generic-+: 7 occurrences of: (aux80 + aux70)
+{0..4}
+DISCRETE aux157 #AC-CSE-Generic-+: 7 occurrences of: (aux91 + aux81)
+{0..4}
+DISCRETE aux158 #AC-CSE-Generic-+: 7 occurrences of: (aux92 + aux82)
+{0..4}
+DISCRETE aux159 #AC-CSE-Generic-+: 7 occurrences of: (aux93 + aux83)
+{0..4}
+DISCRETE aux160 #AC-CSE-Generic-+: 7 occurrences of: (aux94 + aux84)
+{0..4}
+DISCRETE aux161 #AC-CSE-Generic-+: 7 occurrences of: (aux95 + aux85)
+{0..4}
+DISCRETE aux162 #AC-CSE-Generic-+: 7 occurrences of: (aux96 + aux86)
+{0..4}
+DISCRETE aux163 #AC-CSE-Generic-+: 7 occurrences of: (aux97 + aux87)
+{0..4}
+DISCRETE aux164 #AC-CSE-Generic-+: 7 occurrences of: (aux98 + aux88)
+{0..4}
+DISCRETE aux165 #AC-CSE-Generic-+: 7 occurrences of: (aux99 + aux89)
+{0..4}
+DISCRETE aux166 #AC-CSE-Generic-+: 7 occurrences of: (aux100 + aux90)
+{0..4}
+DISCRETE aux167 #AC-CSE-Generic-+: 7 occurrences of: ((0 != result_00004_00003) + aux115)
+{0..7}
+DISCRETE aux168 #AC-CSE-Generic-+: 7 occurrences of: (aux116 + (0 != result_00004_00006))
+{0..7}
+DISCRETE aux169 #AC-CSE-Generic-+: 7 occurrences of: (aux117 + (result_00005_00003 != 0))
+{0..7}
+DISCRETE aux170 #AC-CSE-Generic-+: 7 occurrences of: (aux118 + (result_00005_00006 != 0))
+{0..7}
+DISCRETE aux171 #AC-CSE-Generic-+: 6 occurrences of: ((0 != result_00004_00009) + (0 != result_00009_00004))
+{0..2}
+DISCRETE aux172 #AC-CSE-Generic-+: 6 occurrences of: ((result_00005_00000 != 0) + (result_00000_00005 != 0))
+{0..2}
+DISCRETE aux173 #AC-CSE-Generic-+: 6 occurrences of: ((result_00005_00009 != 0) + (result_00000_00004 != 0))
+{0..2}
+DISCRETE aux174 #AC-CSE-Generic-+: 6 occurrences of: ((0 != result_00004_00000) + (0 != result_00009_00005))
+{0..2}
+DISCRETE aux175 #AC-CSE-Generic-+: 6 occurrences of: (aux13 + aux119)
+{0..6}
+DISCRETE aux176 #AC-CSE-Generic-+: 6 occurrences of: (aux18 + aux121)
+{0..6}
+DISCRETE aux177 #AC-CSE-Generic-+: 6 occurrences of: (aux123 + aux23)
+{0..6}
+DISCRETE aux178 #AC-CSE-Generic-+: 6 occurrences of: (aux125 + aux28)
+{0..6}
+DISCRETE aux179 #AC-CSE-Generic-+: 6 occurrences of: (aux127 + aux33)
+{0..6}
+DISCRETE aux180 #AC-CSE-Generic-+: 6 occurrences of: (aux38 + aux129)
+{0..6}
+DISCRETE aux181 #AC-CSE-Generic-+: 6 occurrences of: (aux43 + aux131)
+{0..6}
+DISCRETE aux182 #AC-CSE-Generic-+: 6 occurrences of: (aux133 + aux48)
+{0..6}
+DISCRETE aux183 #AC-CSE-Generic-+: 6 occurrences of: (aux53 + aux135)
+{0..6}
+DISCRETE aux184 #AC-CSE-Generic-+: 6 occurrences of: (aux58 + aux137)
+{0..6}
+DISCRETE aux185 #AC-CSE-Generic-+: 6 occurrences of: ((result_00007_00004 != 0) + aux143)
+{0..5}
+DISCRETE aux186 #AC-CSE-Generic-+: 6 occurrences of: ((0 != result_00004_00007) + aux144)
+{0..5}
+DISCRETE aux187 #AC-CSE-Generic-+: 6 occurrences of: ((0 != result_00004_00002) + aux145)
+{0..5}
+DISCRETE aux188 #AC-CSE-Generic-+: 6 occurrences of: (aux146 + (result_00007_00005 != 0))
+{0..5}
+DISCRETE aux189 #AC-CSE-Generic-+: 6 occurrences of: (aux167 + (0 != result_00003_00004))
+{0..8}
+DISCRETE aux190 #AC-CSE-Generic-+: 6 occurrences of: (aux168 + (0 != result_00003_00005))
+{0..8}
+DISCRETE aux191 #AC-CSE-Generic-+: 6 occurrences of: (aux169 + (result_00006_00004 != 0))
+{0..8}
+DISCRETE aux192 #AC-CSE-Generic-+: 6 occurrences of: (aux170 + (result_00006_00005 != 0))
+{0..8}
+DISCRETE aux193 #AC-CSE-Generic-+: 5 occurrences of: ((result_00006_00003 != 0) + (result_00005_00002 != 0))
+{0..2}
+DISCRETE aux194 #AC-CSE-Generic-+: 5 occurrences of: ((0 != result_00003_00006) + (result_00002_00005 != 0))
+{0..2}
+DISCRETE aux195 #AC-CSE-Generic-+: 5 occurrences of: ((result_00002_00004 != 0) + (0 != result_00003_00003))
+{0..2}
+DISCRETE aux196 #AC-CSE-Generic-+: 5 occurrences of: ((result_00006_00006 != 0) + (result_00005_00007 != 0))
+{0..2}
+DISCRETE aux197 #AC-CSE-Generic-+: 5 occurrences of: (aux147 + aux101)
+{0..6}
+DISCRETE aux198 #AC-CSE-Generic-+: 5 occurrences of: (aux148 + aux102)
+{0..6}
+DISCRETE aux199 #AC-CSE-Generic-+: 5 occurrences of: (aux149 + aux103)
+{0..6}
+DISCRETE aux200 #AC-CSE-Generic-+: 5 occurrences of: (aux150 + aux104)
+{0..6}
+DISCRETE aux201 #AC-CSE-Generic-+: 5 occurrences of: (aux151 + aux105)
+{0..6}
+DISCRETE aux202 #AC-CSE-Generic-+: 5 occurrences of: (aux152 + aux106)
+{0..6}
+DISCRETE aux203 #AC-CSE-Generic-+: 5 occurrences of: (aux153 + aux107)
+{0..6}
+DISCRETE aux204 #AC-CSE-Generic-+: 5 occurrences of: (aux154 + aux108)
+{0..6}
+DISCRETE aux205 #AC-CSE-Generic-+: 5 occurrences of: (aux109 + aux155)
+{0..6}
+DISCRETE aux206 #AC-CSE-Generic-+: 5 occurrences of: (aux156 + aux110)
+{0..6}
+DISCRETE aux207 #AC-CSE-Generic-+: 5 occurrences of: ((result_00007_00006 != 0) + aux171)
+{0..3}
+DISCRETE aux208 #AC-CSE-Generic-+: 5 occurrences of: ((0 != result_00004_00001) + aux172)
+{0..3}
+DISCRETE aux209 #AC-CSE-Generic-+: 5 occurrences of: ((0 != result_00004_00008) + aux173)
+{0..3}
+DISCRETE aux210 #AC-CSE-Generic-+: 5 occurrences of: ((result_00007_00003 != 0) + aux174)
+{0..3}
+DISCRETE aux211 #AC-CSE-Generic-+: 4 occurrences of: ((result_00006_00007 != 0) + (result_00005_00008 != 0))
+{0..2}
+DISCRETE aux212 #AC-CSE-Generic-+: 4 occurrences of: ((result_00002_00003 != 0) + (result_00001_00004 != 0))
+{0..2}
+DISCRETE aux213 #AC-CSE-Generic-+: 4 occurrences of: ((result_00002_00006 != 0) + (result_00001_00005 != 0))
+{0..2}
+DISCRETE aux214 #AC-CSE-Generic-+: 4 occurrences of: ((result_00006_00002 != 0) + (result_00005_00001 != 0))
+{0..2}
+DISCRETE aux215 #AC-CSE-Generic-+: 4 occurrences of: (aux120 + aux13)
+{0..6}
+DISCRETE aux216 #AC-CSE-Generic-+: 4 occurrences of: (aux122 + aux18)
+{0..6}
+DISCRETE aux217 #AC-CSE-Generic-+: 4 occurrences of: (aux124 + aux23)
+{0..6}
+DISCRETE aux218 #AC-CSE-Generic-+: 4 occurrences of: (aux126 + aux28)
+{0..6}
+DISCRETE aux219 #AC-CSE-Generic-+: 4 occurrences of: (aux128 + aux33)
+{0..6}
+DISCRETE aux220 #AC-CSE-Generic-+: 4 occurrences of: (aux130 + aux38)
+{0..6}
+DISCRETE aux221 #AC-CSE-Generic-+: 4 occurrences of: (aux132 + aux43)
+{0..6}
+DISCRETE aux222 #AC-CSE-Generic-+: 4 occurrences of: (aux134 + aux48)
+{0..6}
+DISCRETE aux223 #AC-CSE-Generic-+: 4 occurrences of: (aux136 + aux53)
+{0..6}
+DISCRETE aux224 #AC-CSE-Generic-+: 4 occurrences of: (aux138 + aux58)
+{0..6}
+DISCRETE aux225 #AC-CSE-Generic-+: 4 occurrences of: (aux157 + aux101)
+{0..6}
+DISCRETE aux226 #AC-CSE-Generic-+: 4 occurrences of: (aux158 + aux102)
+{0..6}
+DISCRETE aux227 #AC-CSE-Generic-+: 4 occurrences of: (aux159 + aux103)
+{0..6}
+DISCRETE aux228 #AC-CSE-Generic-+: 4 occurrences of: (aux160 + aux104)
+{0..6}
+DISCRETE aux229 #AC-CSE-Generic-+: 4 occurrences of: (aux161 + aux105)
+{0..6}
+DISCRETE aux230 #AC-CSE-Generic-+: 4 occurrences of: (aux162 + aux106)
+{0..6}
+DISCRETE aux231 #AC-CSE-Generic-+: 4 occurrences of: (aux163 + aux107)
+{0..6}
+DISCRETE aux232 #AC-CSE-Generic-+: 4 occurrences of: (aux164 + aux108)
+{0..6}
+DISCRETE aux233 #AC-CSE-Generic-+: 4 occurrences of: (aux165 + aux109)
+{0..6}
+DISCRETE aux234 #AC-CSE-Generic-+: 4 occurrences of: (aux166 + aux110)
+{0..6}
+DISCRETE aux235 #AC-CSE-Generic-+: 4 occurrences of: (aux193 + aux185)
+{0..7}
+DISCRETE aux236 #AC-CSE-Generic-+: 4 occurrences of: (aux194 + aux186)
+{0..7}
+DISCRETE aux237 #AC-CSE-Generic-+: 4 occurrences of: (aux195 + aux187)
+{0..7}
+DISCRETE aux238 #AC-CSE-Generic-+: 4 occurrences of: (aux196 + aux188)
+{0..7}
+DISCRETE aux239 #AC-CSE-Generic-+: 4 occurrences of: (aux207 + (0 != result_00008_00005))
+{0..4}
+DISCRETE aux240 #AC-CSE-Generic-+: 4 occurrences of: (aux208 + (0 != result_00003_00002))
+{0..4}
+DISCRETE aux241 #AC-CSE-Generic-+: 4 occurrences of: (aux209 + (0 != result_00003_00007))
+{0..4}
+DISCRETE aux242 #AC-CSE-Generic-+: 4 occurrences of: (aux210 + (0 != result_00008_00004))
+{0..4}
+DISCRETE aux243 #AC-CSE-Generic-+: 3 occurrences of: ((0 != result_00009_00004) + (result_00007_00002 != 0))
+{0..2}
+DISCRETE aux244 #AC-CSE-Generic-+: 3 occurrences of: ((result_00005_00000 != 0) + (result_00006_00001 != 0))
+{0..2}
+DISCRETE aux245 #AC-CSE-Generic-+: 3 occurrences of: ((0 != result_00004_00000) + (result_00002_00002 != 0))
+{0..2}
+DISCRETE aux246 #AC-CSE-Generic-+: 3 occurrences of: ((result_00001_00003 != 0) + (result_00000_00004 != 0))
+{0..2}
+DISCRETE aux247 #AC-CSE-Generic-+: 3 occurrences of: ((0 != result_00009_00005) + (result_00007_00007 != 0))
+{0..2}
+DISCRETE aux248 #AC-CSE-Generic-+: 3 occurrences of: ((result_00005_00009 != 0) + (result_00006_00008 != 0))
+{0..2}
+DISCRETE aux249 #AC-CSE-Generic-+: 3 occurrences of: ((0 != result_00004_00009) + (result_00002_00007 != 0))
+{0..2}
+DISCRETE aux250 #AC-CSE-Generic-+: 3 occurrences of: ((result_00001_00006 != 0) + (result_00000_00005 != 0))
+{0..2}
+DISCRETE aux251 #AC-CSE-Generic-+: 2 occurrences of: (result_00000_00000 + result_00005_00001)
+{0..2}
+DISCRETE aux252 #AC-CSE-Generic-+: 2 occurrences of: (result_00000_00001 + result_00005_00000)
+{0..2}
+DISCRETE aux253 #AC-CSE-Generic-+: 2 occurrences of: (result_00000_00002 + result_00005_00003)
+{0..2}
+DISCRETE aux254 #AC-CSE-Generic-+: 2 occurrences of: (result_00005_00002 + result_00000_00003)
+{0..2}
+DISCRETE aux255 #AC-CSE-Generic-+: 2 occurrences of: (result_00000_00004 + result_00005_00005)
+{0..2}
+DISCRETE aux256 #AC-CSE-Generic-+: 2 occurrences of: (result_00005_00004 + result_00000_00005)
+{0..2}
+DISCRETE aux257 #AC-CSE-Generic-+: 2 occurrences of: (result_00000_00006 + result_00005_00007)
+{0..2}
+DISCRETE aux258 #AC-CSE-Generic-+: 2 occurrences of: (result_00005_00006 + result_00000_00007)
+{0..2}
+DISCRETE aux259 #AC-CSE-Generic-+: 2 occurrences of: (result_00000_00008 + result_00005_00009)
+{0..2}
+DISCRETE aux260 #AC-CSE-Generic-+: 2 occurrences of: (result_00005_00008 + result_00000_00009)
+{0..2}
+DISCRETE aux261 #AC-CSE-Generic-+: 2 occurrences of: (result_00006_00001 + result_00001_00000)
+{0..2}
+DISCRETE aux262 #AC-CSE-Generic-+: 2 occurrences of: (result_00006_00000 + result_00001_00001)
+{0..2}
+DISCRETE aux263 #AC-CSE-Generic-+: 2 occurrences of: (result_00001_00002 + result_00006_00003)
+{0..2}
+DISCRETE aux264 #AC-CSE-Generic-+: 2 occurrences of: (result_00006_00002 + result_00001_00003)
+{0..2}
+DISCRETE aux265 #AC-CSE-Generic-+: 2 occurrences of: (result_00006_00005 + result_00001_00004)
+{0..2}
+DISCRETE aux266 #AC-CSE-Generic-+: 2 occurrences of: (result_00001_00005 + result_00006_00004)
+{0..2}
+DISCRETE aux267 #AC-CSE-Generic-+: 2 occurrences of: (result_00006_00007 + result_00001_00006)
+{0..2}
+DISCRETE aux268 #AC-CSE-Generic-+: 2 occurrences of: (result_00006_00006 + result_00001_00007)
+{0..2}
+DISCRETE aux269 #AC-CSE-Generic-+: 2 occurrences of: (result_00001_00008 + result_00006_00009)
+{0..2}
+DISCRETE aux270 #AC-CSE-Generic-+: 2 occurrences of: (result_00006_00008 + result_00001_00009)
+{0..2}
+DISCRETE aux271 #AC-CSE-Generic-+: 2 occurrences of: (result_00007_00001 + result_00002_00000)
+{0..2}
+DISCRETE aux272 #AC-CSE-Generic-+: 2 occurrences of: (result_00007_00000 + result_00002_00001)
+{0..2}
+DISCRETE aux273 #AC-CSE-Generic-+: 2 occurrences of: (result_00002_00002 + result_00007_00003)
+{0..2}
+DISCRETE aux274 #AC-CSE-Generic-+: 2 occurrences of: (result_00007_00002 + result_00002_00003)
+{0..2}
+DISCRETE aux275 #AC-CSE-Generic-+: 2 occurrences of: (result_00002_00004 + result_00007_00005)
+{0..2}
+DISCRETE aux276 #AC-CSE-Generic-+: 2 occurrences of: (result_00002_00005 + result_00007_00004)
+{0..2}
+DISCRETE aux277 #AC-CSE-Generic-+: 2 occurrences of: (result_00007_00007 + result_00002_00006)
+{0..2}
+DISCRETE aux278 #AC-CSE-Generic-+: 2 occurrences of: (result_00007_00006 + result_00002_00007)
+{0..2}
+DISCRETE aux279 #AC-CSE-Generic-+: 2 occurrences of: (result_00007_00009 + result_00002_00008)
+{0..2}
+DISCRETE aux280 #AC-CSE-Generic-+: 2 occurrences of: (result_00007_00008 + result_00002_00009)
+{0..2}
+DISCRETE aux281 #AC-CSE-Generic-+: 2 occurrences of: (result_00008_00001 + result_00003_00000)
+{0..2}
+DISCRETE aux282 #AC-CSE-Generic-+: 2 occurrences of: (result_00008_00000 + result_00003_00001)
+{0..2}
+DISCRETE aux283 #AC-CSE-Generic-+: 2 occurrences of: (result_00008_00003 + result_00003_00002)
+{0..2}
+DISCRETE aux284 #AC-CSE-Generic-+: 2 occurrences of: (result_00008_00002 + result_00003_00003)
+{0..2}
+DISCRETE aux285 #AC-CSE-Generic-+: 2 occurrences of: (result_00003_00004 + result_00008_00005)
+{0..2}
+DISCRETE aux286 #AC-CSE-Generic-+: 2 occurrences of: (result_00008_00004 + result_00003_00005)
+{0..2}
+DISCRETE aux287 #AC-CSE-Generic-+: 2 occurrences of: (result_00003_00006 + result_00008_00007)
+{0..2}
+DISCRETE aux288 #AC-CSE-Generic-+: 2 occurrences of: (result_00008_00006 + result_00003_00007)
+{0..2}
+DISCRETE aux289 #AC-CSE-Generic-+: 2 occurrences of: (result_00008_00009 + result_00003_00008)
+{0..2}
+DISCRETE aux290 #AC-CSE-Generic-+: 2 occurrences of: (result_00008_00008 + result_00003_00009)
+{0..2}
+DISCRETE aux291 #AC-CSE-Generic-+: 2 occurrences of: (result_00004_00000 + result_00009_00001)
+{0..2}
+DISCRETE aux292 #AC-CSE-Generic-+: 2 occurrences of: (result_00009_00000 + result_00004_00001)
+{0..2}
+DISCRETE aux293 #AC-CSE-Generic-+: 2 occurrences of: (result_00009_00003 + result_00004_00002)
+{0..2}
+DISCRETE aux294 #AC-CSE-Generic-+: 2 occurrences of: (result_00009_00002 + result_00004_00003)
+{0..2}
+DISCRETE aux295 #AC-CSE-Generic-+: 2 occurrences of: (result_00009_00005 + result_00004_00004)
+{0..2}
+DISCRETE aux296 #AC-CSE-Generic-+: 2 occurrences of: (result_00009_00004 + result_00004_00005)
+{0..2}
+DISCRETE aux297 #AC-CSE-Generic-+: 2 occurrences of: (result_00004_00006 + result_00009_00007)
+{0..2}
+DISCRETE aux298 #AC-CSE-Generic-+: 2 occurrences of: (result_00009_00006 + result_00004_00007)
+{0..2}
+DISCRETE aux299 #AC-CSE-Generic-+: 2 occurrences of: (result_00009_00009 + result_00004_00008)
+{0..2}
+DISCRETE aux300 #AC-CSE-Generic-+: 2 occurrences of: (result_00004_00009 + result_00009_00008)
+{0..2}
+DISCRETE aux301 #AC-CSE-Generic-+: 2 occurrences of: ((0 != result_00009_00006) + (result_00007_00008 != 0))
+{0..2}
+DISCRETE aux302 #AC-CSE-Generic-+: 2 occurrences of: ((0 != result_00008_00007) + (result_00006_00009 != 0))
+{0..2}
+DISCRETE aux303 #AC-CSE-Generic-+: 2 occurrences of: ((0 != result_00009_00003) + (result_00007_00001 != 0))
+{0..2}
+DISCRETE aux304 #AC-CSE-Generic-+: 2 occurrences of: ((0 != result_00008_00002) + (result_00006_00000 != 0))
+{0..2}
+DISCRETE aux305 #AC-CSE-Generic-+: 2 occurrences of: ((result_00002_00008 != 0) + (result_00000_00006 != 0))
+{0..2}
+DISCRETE aux306 #AC-CSE-Generic-+: 2 occurrences of: ((0 != result_00003_00009) + (result_00001_00007 != 0))
+{0..2}
+DISCRETE aux307 #AC-CSE-Generic-+: 2 occurrences of: ((result_00002_00001 != 0) + (result_00000_00003 != 0))
+{0..2}
+DISCRETE aux308 #AC-CSE-Generic-+: 2 occurrences of: ((0 != result_00003_00000) + (result_00001_00002 != 0))
+{0..2}
+DISCRETE aux309 #AC-CSE-Generic-+: 2 occurrences of: (aux120 + aux119)
+{0..8}
+DISCRETE aux310 #AC-CSE-Generic-+: 2 occurrences of: (aux122 + aux121)
+{0..8}
+DISCRETE aux311 #AC-CSE-Generic-+: 2 occurrences of: (aux124 + aux123)
+{0..8}
+DISCRETE aux312 #AC-CSE-Generic-+: 2 occurrences of: (aux126 + aux125)
+{0..8}
+DISCRETE aux313 #AC-CSE-Generic-+: 2 occurrences of: (aux128 + aux127)
+{0..8}
+DISCRETE aux314 #AC-CSE-Generic-+: 2 occurrences of: (aux130 + aux129)
+{0..8}
+DISCRETE aux315 #AC-CSE-Generic-+: 2 occurrences of: (aux132 + aux131)
+{0..8}
+DISCRETE aux316 #AC-CSE-Generic-+: 2 occurrences of: (aux134 + aux133)
+{0..8}
+DISCRETE aux317 #AC-CSE-Generic-+: 2 occurrences of: (aux136 + aux135)
+{0..8}
+DISCRETE aux318 #AC-CSE-Generic-+: 2 occurrences of: (aux138 + aux137)
+{0..8}
+DISCRETE aux319 #AC-CSE-Generic-+: 2 occurrences of: (aux157 + aux147)
+{0..8}
+DISCRETE aux320 #AC-CSE-Generic-+: 2 occurrences of: (aux158 + aux148)
+{0..8}
+DISCRETE aux321 #AC-CSE-Generic-+: 2 occurrences of: (aux159 + aux149)
+{0..8}
+DISCRETE aux322 #AC-CSE-Generic-+: 2 occurrences of: (aux160 + aux150)
+{0..8}
+DISCRETE aux323 #AC-CSE-Generic-+: 2 occurrences of: (aux161 + aux151)
+{0..8}
+DISCRETE aux324 #AC-CSE-Generic-+: 2 occurrences of: (aux162 + aux152)
+{0..8}
+DISCRETE aux325 #AC-CSE-Generic-+: 2 occurrences of: (aux163 + aux153)
+{0..8}
+DISCRETE aux326 #AC-CSE-Generic-+: 2 occurrences of: (aux164 + aux154)
+{0..8}
+DISCRETE aux327 #AC-CSE-Generic-+: 2 occurrences of: (aux165 + aux155)
+{0..8}
+DISCRETE aux328 #AC-CSE-Generic-+: 2 occurrences of: (aux166 + aux156)
+{0..8}
+DISCRETE aux329 #AC-CSE-Generic-+: 2 occurrences of: (aux120 + aux175)
+{0..10}
+DISCRETE aux330 #AC-CSE-Generic-+: 2 occurrences of: (aux175 + aux12)
+{0..8}
+DISCRETE aux331 #AC-CSE-Generic-+: 2 occurrences of: (aux175 + aux11)
+{0..8}
+DISCRETE aux332 #AC-CSE-Generic-+: 2 occurrences of: (aux122 + aux176)
+{0..10}
+DISCRETE aux333 #AC-CSE-Generic-+: 2 occurrences of: (aux176 + aux16)
+{0..8}
+DISCRETE aux334 #AC-CSE-Generic-+: 2 occurrences of: (aux176 + aux17)
+{0..8}
+DISCRETE aux335 #AC-CSE-Generic-+: 2 occurrences of: (aux177 + aux22)
+{0..8}
+DISCRETE aux336 #AC-CSE-Generic-+: 2 occurrences of: (aux124 + aux177)
+{0..10}
+DISCRETE aux337 #AC-CSE-Generic-+: 2 occurrences of: (aux177 + aux21)
+{0..8}
+DISCRETE aux338 #AC-CSE-Generic-+: 2 occurrences of: (aux178 + aux27)
+{0..8}
+DISCRETE aux339 #AC-CSE-Generic-+: 2 occurrences of: (aux178 + aux26)
+{0..8}
+DISCRETE aux340 #AC-CSE-Generic-+: 2 occurrences of: (aux126 + aux178)
+{0..10}
+DISCRETE aux341 #AC-CSE-Generic-+: 2 occurrences of: (aux179 + aux32)
+{0..8}
+DISCRETE aux342 #AC-CSE-Generic-+: 2 occurrences of: (aux128 + aux179)
+{0..10}
+DISCRETE aux343 #AC-CSE-Generic-+: 2 occurrences of: (aux179 + aux31)
+{0..8}
+DISCRETE aux344 #AC-CSE-Generic-+: 2 occurrences of: (aux130 + aux180)
+{0..10}
+DISCRETE aux345 #AC-CSE-Generic-+: 2 occurrences of: (aux180 + aux37)
+{0..8}
+DISCRETE aux346 #AC-CSE-Generic-+: 2 occurrences of: (aux180 + aux36)
+{0..8}
+DISCRETE aux347 #AC-CSE-Generic-+: 2 occurrences of: (aux132 + aux181)
+{0..10}
+DISCRETE aux348 #AC-CSE-Generic-+: 2 occurrences of: (aux181 + aux42)
+{0..8}
+DISCRETE aux349 #AC-CSE-Generic-+: 2 occurrences of: (aux181 + aux41)
+{0..8}
+DISCRETE aux350 #AC-CSE-Generic-+: 2 occurrences of: (aux182 + aux47)
+{0..8}
+DISCRETE aux351 #AC-CSE-Generic-+: 2 occurrences of: (aux134 + aux182)
+{0..10}
+DISCRETE aux352 #AC-CSE-Generic-+: 2 occurrences of: (aux182 + aux46)
+{0..8}
+DISCRETE aux353 #AC-CSE-Generic-+: 2 occurrences of: (aux136 + aux183)
+{0..10}
+DISCRETE aux354 #AC-CSE-Generic-+: 2 occurrences of: (aux183 + aux52)
+{0..8}
+DISCRETE aux355 #AC-CSE-Generic-+: 2 occurrences of: (aux183 + aux51)
+{0..8}
+DISCRETE aux356 #AC-CSE-Generic-+: 2 occurrences of: (aux138 + aux184)
+{0..10}
+DISCRETE aux357 #AC-CSE-Generic-+: 2 occurrences of: (aux184 + aux56)
+{0..8}
+DISCRETE aux358 #AC-CSE-Generic-+: 2 occurrences of: (aux184 + aux57)
+{0..8}
+DISCRETE aux359 #AC-CSE-Generic-+: 2 occurrences of: (aux197 + aux81)
+{0..8}
+DISCRETE aux360 #AC-CSE-Generic-+: 2 occurrences of: (aux197 + aux91)
+{0..8}
+DISCRETE aux361 #AC-CSE-Generic-+: 2 occurrences of: (aux198 + aux82)
+{0..8}
+DISCRETE aux362 #AC-CSE-Generic-+: 2 occurrences of: (aux198 + aux92)
+{0..8}
+DISCRETE aux363 #AC-CSE-Generic-+: 2 occurrences of: (aux199 + aux93)
+{0..8}
+DISCRETE aux364 #AC-CSE-Generic-+: 2 occurrences of: (aux199 + aux83)
+{0..8}
+DISCRETE aux365 #AC-CSE-Generic-+: 2 occurrences of: (aux200 + aux84)
+{0..8}
+DISCRETE aux366 #AC-CSE-Generic-+: 2 occurrences of: (aux200 + aux94)
+{0..8}
+DISCRETE aux367 #AC-CSE-Generic-+: 2 occurrences of: (aux201 + aux85)
+{0..8}
+DISCRETE aux368 #AC-CSE-Generic-+: 2 occurrences of: (aux201 + aux95)
+{0..8}
+DISCRETE aux369 #AC-CSE-Generic-+: 2 occurrences of: (aux202 + aux86)
+{0..8}
+DISCRETE aux370 #AC-CSE-Generic-+: 2 occurrences of: (aux202 + aux96)
+{0..8}
+DISCRETE aux371 #AC-CSE-Generic-+: 2 occurrences of: (aux203 + aux87)
+{0..8}
+DISCRETE aux372 #AC-CSE-Generic-+: 2 occurrences of: (aux203 + aux97)
+{0..8}
+DISCRETE aux373 #AC-CSE-Generic-+: 2 occurrences of: (aux204 + aux88)
+{0..8}
+DISCRETE aux374 #AC-CSE-Generic-+: 2 occurrences of: (aux204 + aux98)
+{0..8}
+DISCRETE aux375 #AC-CSE-Generic-+: 2 occurrences of: (aux205 + aux99)
+{0..8}
+DISCRETE aux376 #AC-CSE-Generic-+: 2 occurrences of: (aux205 + aux89)
+{0..8}
+DISCRETE aux377 #AC-CSE-Generic-+: 2 occurrences of: (aux206 + aux100)
+{0..8}
+DISCRETE aux378 #AC-CSE-Generic-+: 2 occurrences of: (aux206 + aux90)
+{0..8}
+DISCRETE aux379 #AC-CSE-Generic-+: 2 occurrences of: (aux215 + aux10)
+{0..8}
+DISCRETE aux380 #AC-CSE-Generic-+: 2 occurrences of: (aux215 + aux9)
+{0..8}
+DISCRETE aux381 #AC-CSE-Generic-+: 2 occurrences of: (aux216 + aux14)
+{0..8}
+DISCRETE aux382 #AC-CSE-Generic-+: 2 occurrences of: (aux216 + aux15)
+{0..8}
+DISCRETE aux383 #AC-CSE-Generic-+: 2 occurrences of: (aux217 + aux20)
+{0..8}
+DISCRETE aux384 #AC-CSE-Generic-+: 2 occurrences of: (aux217 + aux19)
+{0..8}
+DISCRETE aux385 #AC-CSE-Generic-+: 2 occurrences of: (aux218 + aux25)
+{0..8}
+DISCRETE aux386 #AC-CSE-Generic-+: 2 occurrences of: (aux218 + aux24)
+{0..8}
+DISCRETE aux387 #AC-CSE-Generic-+: 2 occurrences of: (aux219 + aux29)
+{0..8}
+DISCRETE aux388 #AC-CSE-Generic-+: 2 occurrences of: (aux219 + aux30)
+{0..8}
+DISCRETE aux389 #AC-CSE-Generic-+: 2 occurrences of: (aux220 + aux34)
+{0..8}
+DISCRETE aux390 #AC-CSE-Generic-+: 2 occurrences of: (aux220 + aux35)
+{0..8}
+DISCRETE aux391 #AC-CSE-Generic-+: 2 occurrences of: (aux221 + aux40)
+{0..8}
+DISCRETE aux392 #AC-CSE-Generic-+: 2 occurrences of: (aux221 + aux39)
+{0..8}
+DISCRETE aux393 #AC-CSE-Generic-+: 2 occurrences of: (aux222 + aux44)
+{0..8}
+DISCRETE aux394 #AC-CSE-Generic-+: 2 occurrences of: (aux222 + aux45)
+{0..8}
+DISCRETE aux395 #AC-CSE-Generic-+: 2 occurrences of: (aux223 + aux49)
+{0..8}
+DISCRETE aux396 #AC-CSE-Generic-+: 2 occurrences of: (aux223 + aux50)
+{0..8}
+DISCRETE aux397 #AC-CSE-Generic-+: 2 occurrences of: (aux224 + aux54)
+{0..8}
+DISCRETE aux398 #AC-CSE-Generic-+: 2 occurrences of: (aux224 + aux55)
+{0..8}
+DISCRETE aux399 #AC-CSE-Generic-+: 2 occurrences of: (aux225 + aux71)
+{0..8}
+DISCRETE aux400 #AC-CSE-Generic-+: 2 occurrences of: (aux225 + aux61)
+{0..8}
+DISCRETE aux401 #AC-CSE-Generic-+: 2 occurrences of: (aux226 + aux72)
+{0..8}
+DISCRETE aux402 #AC-CSE-Generic-+: 2 occurrences of: (aux226 + aux62)
+{0..8}
+DISCRETE aux403 #AC-CSE-Generic-+: 2 occurrences of: (aux227 + aux73)
+{0..8}
+DISCRETE aux404 #AC-CSE-Generic-+: 2 occurrences of: (aux227 + aux63)
+{0..8}
+DISCRETE aux405 #AC-CSE-Generic-+: 2 occurrences of: (aux228 + aux74)
+{0..8}
+DISCRETE aux406 #AC-CSE-Generic-+: 2 occurrences of: (aux228 + aux64)
+{0..8}
+DISCRETE aux407 #AC-CSE-Generic-+: 2 occurrences of: (aux229 + aux75)
+{0..8}
+DISCRETE aux408 #AC-CSE-Generic-+: 2 occurrences of: (aux229 + aux65)
+{0..8}
+DISCRETE aux409 #AC-CSE-Generic-+: 2 occurrences of: (aux230 + aux66)
+{0..8}
+DISCRETE aux410 #AC-CSE-Generic-+: 2 occurrences of: (aux230 + aux76)
+{0..8}
+DISCRETE aux411 #AC-CSE-Generic-+: 2 occurrences of: (aux231 + aux77)
+{0..8}
+DISCRETE aux412 #AC-CSE-Generic-+: 2 occurrences of: (aux231 + aux67)
+{0..8}
+DISCRETE aux413 #AC-CSE-Generic-+: 2 occurrences of: (aux232 + aux78)
+{0..8}
+DISCRETE aux414 #AC-CSE-Generic-+: 2 occurrences of: (aux232 + aux68)
+{0..8}
+DISCRETE aux415 #AC-CSE-Generic-+: 2 occurrences of: (aux233 + aux69)
+{0..8}
+DISCRETE aux416 #AC-CSE-Generic-+: 2 occurrences of: (aux233 + aux79)
+{0..8}
+DISCRETE aux417 #AC-CSE-Generic-+: 2 occurrences of: (aux234 + aux70)
+{0..8}
+DISCRETE aux418 #AC-CSE-Generic-+: 2 occurrences of: (aux234 + aux80)
+{0..8}
+DISCRETE aux419 #AC-CSE-Generic-+: 2 occurrences of: (aux239 + aux211)
+{0..6}
+DISCRETE aux420 #AC-CSE-Generic-+: 2 occurrences of: (aux240 + aux212)
+{0..6}
+DISCRETE aux421 #AC-CSE-Generic-+: 2 occurrences of: (aux241 + aux213)
+{0..6}
+DISCRETE aux422 #AC-CSE-Generic-+: 2 occurrences of: (aux242 + aux214)
+{0..6}
+DISCRETE aux423 #AC-CSE-Generic-+: 2 occurrences of: (aux243 + (0 != result_00008_00003))
+{0..3}
+DISCRETE aux424 #AC-CSE-Generic-+: 2 occurrences of: (aux244 + (0 != result_00008_00003))
+{0..3}
+DISCRETE aux425 #AC-CSE-Generic-+: 2 occurrences of: (aux245 + (0 != result_00003_00001))
+{0..3}
+DISCRETE aux426 #AC-CSE-Generic-+: 2 occurrences of: (aux246 + (0 != result_00003_00001))
+{0..3}
+DISCRETE aux427 #AC-CSE-Generic-+: 2 occurrences of: (aux247 + (0 != result_00008_00006))
+{0..3}
+DISCRETE aux428 #AC-CSE-Generic-+: 2 occurrences of: (aux248 + (0 != result_00008_00006))
+{0..3}
+DISCRETE aux429 #AC-CSE-Generic-+: 2 occurrences of: (aux249 + (0 != result_00003_00008))
+{0..3}
+DISCRETE aux430 #AC-CSE-Generic-+: 2 occurrences of: (aux250 + (0 != result_00003_00008))
+{0..3}
+BOOL aux431 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00009_00001)
+BOOL aux432 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00009_00008)
+BOOL aux433 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00004_00006)
+BOOL aux434 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00004_00005)
+BOOL aux435 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00004_00008)
+BOOL aux436 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00004_00007)
+BOOL aux437 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00004_00002)
+BOOL aux438 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00004_00001)
+BOOL aux439 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00004_00004)
+BOOL aux440 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00004_00003)
+BOOL aux441 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00001_00000 != 0)
+BOOL aux442 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00001_00009 != 0)
+BOOL aux443 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00000_00006 != 0)
+BOOL aux444 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00000_00007 != 0)
+BOOL aux445 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00000_00004 != 0)
+BOOL aux446 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00000_00005 != 0)
+BOOL aux447 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00000_00002 != 0)
+BOOL aux448 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00000_00003 != 0)
+BOOL aux449 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00005_00008 != 0)
+BOOL aux450 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00005_00009 != 0)
+BOOL aux451 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00005_00001 != 0)
+BOOL aux452 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00005_00002 != 0)
+BOOL aux453 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00005_00000 != 0)
+BOOL aux454 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00005_00007 != 0)
+BOOL aux455 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00002_00001 != 0)
+BOOL aux456 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00002_00000 != 0)
+BOOL aux457 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00002_00005 != 0)
+BOOL aux458 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00002_00004 != 0)
+BOOL aux459 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00002_00003 != 0)
+BOOL aux460 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00002_00002 != 0)
+BOOL aux461 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00002_00009 != 0)
+BOOL aux462 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00002_00008 != 0)
+BOOL aux463 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00002_00007 != 0)
+BOOL aux464 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00002_00006 != 0)
+BOOL aux465 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00003_00000)
+BOOL aux466 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00003_00001)
+BOOL aux467 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00003_00006)
+BOOL aux468 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00003_00007)
+BOOL aux469 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00003_00008)
+BOOL aux470 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00003_00009)
+BOOL aux471 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00003_00002)
+BOOL aux472 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00003_00003)
+BOOL aux473 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00003_00004)
+BOOL aux474 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00003_00005)
+BOOL aux475 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00008_00007)
+BOOL aux476 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00008_00008)
+BOOL aux477 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00008_00005)
+BOOL aux478 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00008_00006)
+BOOL aux479 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00008_00003)
+BOOL aux480 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00008_00004)
+BOOL aux481 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00008_00001)
+BOOL aux482 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00008_00002)
+BOOL aux483 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00007_00006 != 0)
+BOOL aux484 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00007_00005 != 0)
+BOOL aux485 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00007_00004 != 0)
+BOOL aux486 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00007_00003 != 0)
+BOOL aux487 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00008_00009)
+BOOL aux488 #Active-CSE: 2 occurrences of this expression or equivalent: (0 != result_00008_00000)
+BOOL aux489 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00006_00005 != 0)
+BOOL aux490 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00006_00007 != 0)
+BOOL aux491 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00006_00006 != 0)
+BOOL aux492 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00006_00008 != 0)
+BOOL aux493 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00006_00009 != 0)
+BOOL aux494 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00006_00001 != 0)
+BOOL aux495 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00006_00002 != 0)
+BOOL aux496 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00006_00003 != 0)
+BOOL aux497 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00006_00004 != 0)
+BOOL aux498 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00006_00000 != 0)
+BOOL aux499 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00005_00006 != 0)
+BOOL aux500 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00005_00005 != 0)
+BOOL aux501 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00005_00004 != 0)
+BOOL aux502 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00005_00003 != 0)
+BOOL aux503 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00009_00004)
+BOOL aux504 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00009_00005)
+BOOL aux505 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00009_00003)
+BOOL aux506 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00009_00007)
+BOOL aux507 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00009_00006)
+BOOL aux508 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00009_00002)
+BOOL aux509 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00007_00008 != 0)
+BOOL aux510 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00007_00009 != 0)
+BOOL aux511 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00007_00007 != 0)
+BOOL aux512 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00007_00002 != 0)
+BOOL aux513 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00007_00001 != 0)
+BOOL aux514 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00007_00000 != 0)
+BOOL aux515 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00001_00001 != 0)
+BOOL aux516 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00001_00003 != 0)
+BOOL aux517 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00001_00002 != 0)
+BOOL aux518 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00001_00005 != 0)
+BOOL aux519 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00001_00004 != 0)
+BOOL aux520 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00001_00007 != 0)
+BOOL aux521 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00001_00006 != 0)
+BOOL aux522 #Active-CSE: 3 occurrences of this expression or equivalent: (result_00001_00008 != 0)
+BOOL aux523 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00000_00001 != 0)
+BOOL aux524 #Active-CSE: 2 occurrences of this expression or equivalent: (result_00000_00008 != 0)
+BOOL aux525 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00004_00009)
+BOOL aux526 #Active-CSE: 3 occurrences of this expression or equivalent: (0 != result_00004_00000)
+BOOL aux527 #(0 != result_00009_00000)
+BOOL aux528 #(result_00000_00009 != 0)
+BOOL aux529 #(0 != result_00009_00009)
+BOOL aux530 #(result_00000_00000 != 0)
+**SEARCH**
+PRINT[[result_00000_00000],[result_00000_00001],[result_00000_00002],[result_00000_00003],[result_00000_00004],[result_00000_00005],[result_00000_00006],[result_00000_00007],[result_00000_00008],[result_00000_00009],[result_00001_00000],[result_00001_00001],[result_00001_00002],[result_00001_00003],[result_00001_00004],[result_00001_00005],[result_00001_00006],[result_00001_00007],[result_00001_00008],[result_00001_00009],[result_00002_00000],[result_00002_00001],[result_00002_00002],[result_00002_00003],[result_00002_00004],[result_00002_00005],[result_00002_00006],[result_00002_00007],[result_00002_00008],[result_00002_00009],[result_00003_00000],[result_00003_00001],[result_00003_00002],[result_00003_00003],[result_00003_00004],[result_00003_00005],[result_00003_00006],[result_00003_00007],[result_00003_00008],[result_00003_00009],[result_00004_00000],[result_00004_00001],[result_00004_00002],[result_00004_00003],[result_00004_00004],[result_00004_00005],[result_00004_00006],[result_00004_00007],[result_00004_00008],[result_00004_00009],[result_00005_00000],[result_00005_00001],[result_00005_00002],[result_00005_00003],[result_00005_00004],[result_00005_00005],[result_00005_00006],[result_00005_00007],[result_00005_00008],[result_00005_00009],[result_00006_00000],[result_00006_00001],[result_00006_00002],[result_00006_00003],[result_00006_00004],[result_00006_00005],[result_00006_00006],[result_00006_00007],[result_00006_00008],[result_00006_00009],[result_00007_00000],[result_00007_00001],[result_00007_00002],[result_00007_00003],[result_00007_00004],[result_00007_00005],[result_00007_00006],[result_00007_00007],[result_00007_00008],[result_00007_00009],[result_00008_00000],[result_00008_00001],[result_00008_00002],[result_00008_00003],[result_00008_00004],[result_00008_00005],[result_00008_00006],[result_00008_00007],[result_00008_00008],[result_00008_00009],[result_00009_00000],[result_00009_00001],[result_00009_00002],[result_00009_00003],[result_00009_00004],[result_00009_00005],[result_00009_00006],[result_00009_00007],[result_00009_00008],[result_00009_00009][aux8]]
+MINIMISING aux8
+VARORDER STATIC [result_00000_00000, result_00000_00001, result_00000_00002, result_00000_00003, result_00000_00004, result_00000_00005, result_00000_00006, result_00000_00007, result_00000_00008, result_00000_00009, result_00001_00000, result_00001_00001, result_00001_00002, result_00001_00003, result_00001_00004, result_00001_00005, result_00001_00006, result_00001_00007, result_00001_00008, result_00001_00009, result_00002_00000, result_00002_00001, result_00002_00002, result_00002_00003, result_00002_00004, result_00002_00005, result_00002_00006, result_00002_00007, result_00002_00008, result_00002_00009, result_00003_00000, result_00003_00001, result_00003_00002, result_00003_00003, result_00003_00004, result_00003_00005, result_00003_00006, result_00003_00007, result_00003_00008, result_00003_00009, result_00004_00000, result_00004_00001, result_00004_00002, result_00004_00003, result_00004_00004, result_00004_00005, result_00004_00006, result_00004_00007, result_00004_00008, result_00004_00009, result_00005_00000, result_00005_00001, result_00005_00002, result_00005_00003, result_00005_00004, result_00005_00005, result_00005_00006, result_00005_00007, result_00005_00008, result_00005_00009, result_00006_00000, result_00006_00001, result_00006_00002, result_00006_00003, result_00006_00004, result_00006_00005, result_00006_00006, result_00006_00007, result_00006_00008, result_00006_00009, result_00007_00000, result_00007_00001, result_00007_00002, result_00007_00003, result_00007_00004, result_00007_00005, result_00007_00006, result_00007_00007, result_00007_00008, result_00007_00009, result_00008_00000, result_00008_00001, result_00008_00002, result_00008_00003, result_00008_00004, result_00008_00005, result_00008_00006, result_00008_00007, result_00008_00008, result_00008_00009, result_00009_00000, result_00009_00001, result_00009_00002, result_00009_00003, result_00009_00004, result_00009_00005, result_00009_00006, result_00009_00007, result_00009_00008, result_00009_00009]
+VARORDER AUX [result_00000_00000,result_00000_00001,result_00000_00002,result_00000_00003,result_00000_00004,result_00000_00005,result_00000_00006,result_00000_00007,result_00000_00008,result_00000_00009,result_00001_00000,result_00001_00001,result_00001_00002,result_00001_00003,result_00001_00004,result_00001_00005,result_00001_00006,result_00001_00007,result_00001_00008,result_00001_00009,result_00002_00000,result_00002_00001,result_00002_00002,result_00002_00003,result_00002_00004,result_00002_00005,result_00002_00006,result_00002_00007,result_00002_00008,result_00002_00009,result_00003_00000,result_00003_00001,result_00003_00002,result_00003_00003,result_00003_00004,result_00003_00005,result_00003_00006,result_00003_00007,result_00003_00008,result_00003_00009,result_00004_00000,result_00004_00001,result_00004_00002,result_00004_00003,result_00004_00004,result_00004_00005,result_00004_00006,result_00004_00007,result_00004_00008,result_00004_00009,result_00005_00000,result_00005_00001,result_00005_00002,result_00005_00003,result_00005_00004,result_00005_00005,result_00005_00006,result_00005_00007,result_00005_00008,result_00005_00009,result_00006_00000,result_00006_00001,result_00006_00002,result_00006_00003,result_00006_00004,result_00006_00005,result_00006_00006,result_00006_00007,result_00006_00008,result_00006_00009,result_00007_00000,result_00007_00001,result_00007_00002,result_00007_00003,result_00007_00004,result_00007_00005,result_00007_00006,result_00007_00007,result_00007_00008,result_00007_00009,result_00008_00000,result_00008_00001,result_00008_00002,result_00008_00003,result_00008_00004,result_00008_00005,result_00008_00006,result_00008_00007,result_00008_00008,result_00008_00009,result_00009_00000,result_00009_00001,result_00009_00002,result_00009_00003,result_00009_00004,result_00009_00005,result_00009_00006,result_00009_00007,result_00009_00008,result_00009_00009,aux8,aux9,aux10,aux11,aux12,aux13,aux14,aux15,aux16,aux17,aux18,aux19,aux20,aux21,aux22,aux23,aux24,aux25,aux26,aux27,aux28,aux29,aux30,aux31,aux32,aux33,aux34,aux35,aux36,aux37,aux38,aux39,aux40,aux41,aux42,aux43,aux44,aux45,aux46,aux47,aux48,aux49,aux50,aux51,aux52,aux53,aux54,aux55,aux56,aux57,aux58,aux59,aux60,aux61,aux62,aux63,aux64,aux65,aux66,aux67,aux68,aux69,aux70,aux71,aux72,aux73,aux74,aux75,aux76,aux77,aux78,aux79,aux80,aux81,aux82,aux83,aux84,aux85,aux86,aux87,aux88,aux89,aux90,aux91,aux92,aux93,aux94,aux95,aux96,aux97,aux98,aux99,aux100,aux101,aux102,aux103,aux104,aux105,aux106,aux107,aux108,aux109,aux110,aux111,aux112,aux113,aux114,aux115,aux116,aux117,aux118,aux119,aux120,aux121,aux122,aux123,aux124,aux125,aux126,aux127,aux128,aux129,aux130,aux131,aux132,aux133,aux134,aux135,aux136,aux137,aux138,aux139,aux140,aux141,aux142,aux143,aux144,aux145,aux146,aux147,aux148,aux149,aux150,aux151,aux152,aux153,aux154,aux155,aux156,aux157,aux158,aux159,aux160,aux161,aux162,aux163,aux164,aux165,aux166,aux167,aux168,aux169,aux170,aux171,aux172,aux173,aux174,aux175,aux176,aux177,aux178,aux179,aux180,aux181,aux182,aux183,aux184,aux185,aux186,aux187,aux188,aux189,aux190,aux191,aux192,aux193,aux194,aux195,aux196,aux197,aux198,aux199,aux200,aux201,aux202,aux203,aux204,aux205,aux206,aux207,aux208,aux209,aux210,aux211,aux212,aux213,aux214,aux215,aux216,aux217,aux218,aux219,aux220,aux221,aux222,aux223,aux224,aux225,aux226,aux227,aux228,aux229,aux230,aux231,aux232,aux233,aux234,aux235,aux236,aux237,aux238,aux239,aux240,aux241,aux242,aux243,aux244,aux245,aux246,aux247,aux248,aux249,aux250,aux251,aux252,aux253,aux254,aux255,aux256,aux257,aux258,aux259,aux260,aux261,aux262,aux263,aux264,aux265,aux266,aux267,aux268,aux269,aux270,aux271,aux272,aux273,aux274,aux275,aux276,aux277,aux278,aux279,aux280,aux281,aux282,aux283,aux284,aux285,aux286,aux287,aux288,aux289,aux290,aux291,aux292,aux293,aux294,aux295,aux296,aux297,aux298,aux299,aux300,aux301,aux302,aux303,aux304,aux305,aux306,aux307,aux308,aux309,aux310,aux311,aux312,aux313,aux314,aux315,aux316,aux317,aux318,aux319,aux320,aux321,aux322,aux323,aux324,aux325,aux326,aux327,aux328,aux329,aux330,aux331,aux332,aux333,aux334,aux335,aux336,aux337,aux338,aux339,aux340,aux341,aux342,aux343,aux344,aux345,aux346,aux347,aux348,aux349,aux350,aux351,aux352,aux353,aux354,aux355,aux356,aux357,aux358,aux359,aux360,aux361,aux362,aux363,aux364,aux365,aux366,aux367,aux368,aux369,aux370,aux371,aux372,aux373,aux374,aux375,aux376,aux377,aux378,aux379,aux380,aux381,aux382,aux383,aux384,aux385,aux386,aux387,aux388,aux389,aux390,aux391,aux392,aux393,aux394,aux395,aux396,aux397,aux398,aux399,aux400,aux401,aux402,aux403,aux404,aux405,aux406,aux407,aux408,aux409,aux410,aux411,aux412,aux413,aux414,aux415,aux416,aux417,aux418,aux419,aux420,aux421,aux422,aux423,aux424,aux425,aux426,aux427,aux428,aux429,aux430,aux431,aux432,aux433,aux434,aux435,aux436,aux437,aux438,aux439,aux440,aux441,aux442,aux443,aux444,aux445,aux446,aux447,aux448,aux449,aux450,aux451,aux452,aux453,aux454,aux455,aux456,aux457,aux458,aux459,aux460,aux461,aux462,aux463,aux464,aux465,aux466,aux467,aux468,aux469,aux470,aux471,aux472,aux473,aux474,aux475,aux476,aux477,aux478,aux479,aux480,aux481,aux482,aux483,aux484,aux485,aux486,aux487,aux488,aux489,aux490,aux491,aux492,aux493,aux494,aux495,aux496,aux497,aux498,aux499,aux500,aux501,aux502,aux503,aux504,aux505,aux506,aux507,aux508,aux509,aux510,aux511,aux512,aux513,aux514,aux515,aux516,aux517,aux518,aux519,aux520,aux521,aux522,aux523,aux524,aux525,aux526,aux527,aux528,aux529,aux530]
+**CONSTRAINTS**
+reify(diseq(0,result_00009_00000), aux527)
+reify(diseq(result_00000_00009,0), aux528)
+reify(diseq(0,result_00009_00009), aux529)
+reify(diseq(result_00000_00000,0), aux530)
+reify(diseq(0,result_00009_00001), aux431)
+reify(diseq(0,result_00009_00008), aux432)
+reify(diseq(0,result_00004_00006), aux433)
+reify(diseq(0,result_00004_00005), aux434)
+reify(diseq(0,result_00004_00008), aux435)
+reify(diseq(0,result_00004_00007), aux436)
+reify(diseq(0,result_00004_00002), aux437)
+reify(diseq(0,result_00004_00001), aux438)
+reify(diseq(0,result_00004_00004), aux439)
+reify(diseq(0,result_00004_00003), aux440)
+reify(diseq(result_00001_00000,0), aux441)
+reify(diseq(result_00001_00009,0), aux442)
+reify(diseq(result_00000_00006,0), aux443)
+reify(diseq(result_00000_00007,0), aux444)
+reify(diseq(result_00000_00004,0), aux445)
+reify(diseq(result_00000_00005,0), aux446)
+reify(diseq(result_00000_00002,0), aux447)
+reify(diseq(result_00000_00003,0), aux448)
+reify(diseq(result_00005_00008,0), aux449)
+reify(diseq(result_00005_00009,0), aux450)
+reify(diseq(result_00005_00001,0), aux451)
+reify(diseq(result_00005_00002,0), aux452)
+reify(diseq(result_00005_00000,0), aux453)
+reify(diseq(result_00005_00007,0), aux454)
+reify(diseq(result_00002_00001,0), aux455)
+reify(diseq(result_00002_00000,0), aux456)
+reify(diseq(result_00002_00005,0), aux457)
+reify(diseq(result_00002_00004,0), aux458)
+reify(diseq(result_00002_00003,0), aux459)
+reify(diseq(result_00002_00002,0), aux460)
+reify(diseq(result_00002_00009,0), aux461)
+reify(diseq(result_00002_00008,0), aux462)
+reify(diseq(result_00002_00007,0), aux463)
+reify(diseq(result_00002_00006,0), aux464)
+reify(diseq(0,result_00003_00000), aux465)
+reify(diseq(0,result_00003_00001), aux466)
+reify(diseq(0,result_00003_00006), aux467)
+reify(diseq(0,result_00003_00007), aux468)
+reify(diseq(0,result_00003_00008), aux469)
+reify(diseq(0,result_00003_00009), aux470)
+reify(diseq(0,result_00003_00002), aux471)
+reify(diseq(0,result_00003_00003), aux472)
+reify(diseq(0,result_00003_00004), aux473)
+reify(diseq(0,result_00003_00005), aux474)
+reify(diseq(0,result_00008_00007), aux475)
+reify(diseq(0,result_00008_00008), aux476)
+reify(diseq(0,result_00008_00005), aux477)
+reify(diseq(0,result_00008_00006), aux478)
+reify(diseq(0,result_00008_00003), aux479)
+reify(diseq(0,result_00008_00004), aux480)
+reify(diseq(0,result_00008_00001), aux481)
+reify(diseq(0,result_00008_00002), aux482)
+reify(diseq(result_00007_00006,0), aux483)
+reify(diseq(result_00007_00005,0), aux484)
+reify(diseq(result_00007_00004,0), aux485)
+reify(diseq(result_00007_00003,0), aux486)
+reify(diseq(0,result_00008_00009), aux487)
+reify(diseq(0,result_00008_00000), aux488)
+reify(diseq(result_00006_00005,0), aux489)
+reify(diseq(result_00006_00007,0), aux490)
+reify(diseq(result_00006_00006,0), aux491)
+reify(diseq(result_00006_00008,0), aux492)
+reify(diseq(result_00006_00009,0), aux493)
+reify(diseq(result_00006_00001,0), aux494)
+reify(diseq(result_00006_00002,0), aux495)
+reify(diseq(result_00006_00003,0), aux496)
+reify(diseq(result_00006_00004,0), aux497)
+reify(diseq(result_00006_00000,0), aux498)
+reify(diseq(result_00005_00006,0), aux499)
+reify(diseq(result_00005_00005,0), aux500)
+reify(diseq(result_00005_00004,0), aux501)
+reify(diseq(result_00005_00003,0), aux502)
+reify(diseq(0,result_00009_00004), aux503)
+reify(diseq(0,result_00009_00005), aux504)
+reify(diseq(0,result_00009_00003), aux505)
+reify(diseq(0,result_00009_00007), aux506)
+reify(diseq(0,result_00009_00006), aux507)
+reify(diseq(0,result_00009_00002), aux508)
+reify(diseq(result_00007_00008,0), aux509)
+reify(diseq(result_00007_00009,0), aux510)
+reify(diseq(result_00007_00007,0), aux511)
+reify(diseq(result_00007_00002,0), aux512)
+reify(diseq(result_00007_00001,0), aux513)
+reify(diseq(result_00007_00000,0), aux514)
+reify(diseq(result_00001_00001,0), aux515)
+reify(diseq(result_00001_00003,0), aux516)
+reify(diseq(result_00001_00002,0), aux517)
+reify(diseq(result_00001_00005,0), aux518)
+reify(diseq(result_00001_00004,0), aux519)
+reify(diseq(result_00001_00007,0), aux520)
+reify(diseq(result_00001_00006,0), aux521)
+reify(diseq(result_00001_00008,0), aux522)
+reify(diseq(result_00000_00001,0), aux523)
+reify(diseq(result_00000_00008,0), aux524)
+reify(diseq(0,result_00004_00009), aux525)
+reify(diseq(0,result_00004_00000), aux526)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00000_00002,aux456,aux190,aux254,aux380,aux403,aux515],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00005_00006,aux118,aux142,aux257,aux333,aux411,aux489],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux191,aux245,aux246,aux281,aux361,aux391,result_00003_00001],1)
+weightedsumgeq([2,1,1,1,1,1],[result_00005_00004,aux111,aux255,aux334,aux407,aux59],1)
+weightedsumgeq([2,1,1,1,1,1],[result_00005_00005,aux112,aux256,aux334,aux410,aux60],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux235,aux282,aux307,aux359,aux391,result_00003_00000,aux517],1)
+sumleq([result_00000_00009,result_00005_00004,result_00001_00008,result_00006_00003,result_00002_00007,result_00007_00002,result_00003_00006,result_00008_00001,result_00004_00005,result_00009_00000],1)
+sumleq([result_00000_00005,result_00005_00000,result_00001_00004,result_00002_00003,result_00003_00002,result_00004_00001],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux506,aux190,aux280,aux314,aux377,result_00007_00009,aux476],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00000_00003,aux455,aux236,aux253,aux308,aux380,aux405],1)
+weightedsumgeq([2,1,1,1,1,1],[result_00000_00001,aux142,aux251,aux379,aux401,aux441],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux191,aux247,aux248,aux287,aux352,aux371,result_00008_00006],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux192,aux279,aux313,aux377,aux444,result_00002_00009,aux522],1)
+sumleq([result_00000_00002,result_00001_00001,result_00002_00000],1)
+sumleq([result_00000_00007,result_00001_00008,result_00002_00009],1)
+weightedsumgeq([2,1,1,1,1,1],[result_00000_00008,aux141,aux260,aux309,aux416,aux442],1)
+weightedsumgeq([1,1,1,1,1,1,1,2],[aux172,aux212,aux235,aux291,aux320,aux396,aux471,result_00004_00001],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00000_00006,aux462,aux237,aux258,aux306,aux331,aux411],1)
+weightedsumgeq([1,1,1,1,1,2],[aux431,aux141,aux281,aux359,aux394,result_00008_00000],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux142,aux264,aux307,aux384,aux404,result_00001_00002,aux465],1)
+sumleq([result_00000_00007,result_00005_00002,result_00001_00006,result_00006_00001,result_00002_00005,result_00007_00000,result_00003_00004,result_00004_00003],1)
+sumleq([result_00005_00006,result_00006_00005,result_00002_00009,result_00007_00004,result_00003_00008,result_00008_00003,result_00004_00007,result_00009_00002],1)
+sumleq([result_00005_00003,result_00006_00004,result_00002_00000,result_00007_00005,result_00003_00001,result_00008_00006,result_00004_00002,result_00009_00007],1)
+weightedsumgeq([1,1,1,1,1,2],[aux432,aux142,aux290,aux316,aux378,result_00008_00009],1)
+sumleq([result_00000_00003,result_00005_00008,result_00001_00004,result_00006_00009,result_00002_00005,result_00003_00006,result_00004_00007],1)
+weightedsumgeq([1,1,1,1,2,1,1],[aux461,aux270,aux311,aux415,result_00001_00008,aux444,aux59],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux505,aux141,aux272,aux304,aux362,aux390,result_00007_00001],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux510,aux191,aux298,aux326,aux357,aux476,result_00009_00007],1)
+sumleq([result_00008_00000,result_00009_00001],1)
+sumleq([result_00008_00009,result_00009_00008],1)
+weightedsumgeq([1,1,1,1,1,1,2,1],[aux139,aux171,aux211,aux277,aux346,aux372,result_00007_00006,aux477],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux460,aux292,aux319,aux396,aux422,aux426,result_00004_00000],1)
+sumleq([result_00005_00008,result_00006_00007,result_00007_00006,result_00008_00005,result_00004_00009,result_00009_00004],1)
+sumleq([result_00000_00008,result_00005_00003,result_00001_00007,result_00006_00002,result_00002_00006,result_00007_00001,result_00003_00005,result_00008_00000,result_00004_00004],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux187,aux190,aux276,aux341,aux368,result_00002_00004,aux472],1)
+weightedsumgeq([1,1,1,1,2,1,1],[aux188,aux267,aux339,aux412,result_00006_00006,aux454,aux60],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux192,aux243,aux244,aux284,aux365,aux393,result_00008_00003],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux144,aux192,aux194,aux297,aux326,aux355,result_00004_00007],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux192,aux249,aux250,aux290,aux315,aux376,result_00003_00008],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux146,aux191,aux196,aux276,aux345,aux370,result_00007_00005],1)
+sumleq([result_00000_00001,result_00005_00006,result_00001_00002,result_00006_00007,result_00002_00003,result_00007_00008,result_00003_00004,result_00008_00009,result_00004_00005],1)
+weightedsumgeq([1,1,1,1,1,2],[aux139,aux170,aux266,aux338,aux409,result_00006_00005],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux190,aux263,aux384,aux406,aux425,result_00001_00003,aux445],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux503,aux273,aux363,aux389,aux424,result_00007_00002,aux59],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux463,aux299,aux317,aux328,aux419,aux430,result_00004_00009],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux457,aux186,aux288,aux349,aux371,aux59,result_00003_00006],1)
+sumleq([result_00000_00001,result_00001_00000],1)
+sumleq([result_00000_00008,result_00001_00009],1)
+weightedsumgeq([2,1,1,1,1],[result_00000_00000,aux252,aux379,aux399,aux60],1)
+weightedsumgeq([2,1,1,1,1],[result_00000_00009,aux259,aux309,aux418,aux59],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux190,aux269,aux312,aux415,aux427,result_00006_00008,aux450],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux139,aux288,aux301,aux352,aux373,result_00008_00007,aux493],1)
+weightedsumgeq([1,1,1,1,2,1,1],[aux456,aux261,aux383,aux402,result_00001_00001,aux447,aux60],1)
+weightedsumgeq([1,1,1,1,1,2],[aux139,aux299,aux318,aux327,aux487,result_00009_00008],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00005_00003,aux117,aux141,aux254,aux381,aux405,aux497],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux236,aux270,aux301,aux312,aux417,result_00006_00009,aux475],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux237,aux261,aux303,aux385,aux400,result_00006_00000,aux482],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00005_00000,aux251,aux382,aux399,aux420,aux423,aux494],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux139,aux208,aux212,aux284,aux364,aux392,result_00003_00002],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00005_00009,aux260,aux310,aux418,aux421,aux427,aux492],1)
+weightedsumgeq([1,1,1,1,1,2],[aux140,aux169,aux265,aux338,aux408,result_00006_00004],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00005_00008,aux236,aux239,aux259,aux310,aux416,aux490],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux145,aux191,aux195,aux294,aux321,aux395,result_00004_00002],1)
+weightedsumgeq([1,1,1,1,1,2],[aux113,aux296,aux323,aux354,aux60,result_00004_00004],1)
+weightedsumgeq([1,1,1,1,1,2],[aux114,aux295,aux324,aux354,aux59,result_00004_00005],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux506,aux510,aux289,aux316,aux376,aux60,result_00008_00008],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux115,aux139,aux293,aux322,aux395,aux473,result_00004_00003],1)
+ineq(aux329, 1, 0)
+ineq(aux332, 1, 0)
+ineq(aux336, 1, 0)
+ineq(aux340, 1, 0)
+ineq(aux342, 1, 0)
+ineq(aux344, 1, 0)
+ineq(aux347, 1, 0)
+ineq(aux351, 1, 0)
+ineq(aux353, 1, 0)
+ineq(aux356, 1, 0)
+sumleq([result_00005_00000,result_00006_00001,result_00007_00002,result_00008_00003,result_00009_00004],1)
+sumleq([result_00005_00007,result_00006_00006,result_00007_00005,result_00003_00009,result_00008_00004,result_00004_00008,result_00009_00003],1)
+weightedsumgeq([1,1,1,1,1,2],[aux140,aux292,aux320,aux398,aux488,result_00009_00001],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux504,aux278,aux346,aux374,aux428,result_00007_00007,aux60],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux210,aux214,aux238,aux285,aux350,aux367,result_00008_00004],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00000_00004,aux256,aux330,aux407,aux421,aux425,aux516],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux514,aux192,aux293,aux321,aux397,aux481,result_00009_00002],1)
+sumleq([result_00005_00009,result_00006_00008,result_00007_00007,result_00008_00006,result_00009_00005],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux207,aux211,aux235,aux286,aux350,aux369,result_00008_00005],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux140,aux280,aux306,aux313,aux375,aux443,result_00002_00008],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux508,aux514,aux282,aux361,aux394,aux59,result_00008_00001],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux459,aux236,aux240,aux266,aux335,aux408,result_00001_00004],1)
+weightedsumgeq([1,1,1,1,2,1,1],[aux185,aux264,aux386,aux406,result_00006_00003,aux452,aux59],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux141,aux241,aux278,aux343,aux372,result_00002_00006,aux518],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00005_00002,aux185,aux189,aux253,aux381,aux403,aux496],1)
+sumleq([result_00005_00004,result_00001_00000,result_00006_00005,result_00002_00001,result_00007_00006,result_00003_00002,result_00008_00007,result_00004_00003,result_00009_00008],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux525,aux277,aux343,aux374,aux430,result_00002_00007,aux59],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux143,aux192,aux193,aux275,aux345,aux368,result_00007_00004],1)
+sumleq([result_00007_00000,result_00008_00001,result_00009_00002],1)
+sumleq([result_00007_00009,result_00008_00008,result_00009_00007],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00005_00007,aux188,aux190,aux258,aux333,aux413,aux491],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux512,aux295,aux323,aux358,aux419,aux424,result_00009_00004],1)
+weightedsumgeq([1,1,1,1,2],[aux291,aux319,aux398,aux59,result_00009_00000],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux238,aux289,aux305,aux315,aux378,result_00003_00009,aux520],1)
+sumleq([result_00000_00003,result_00001_00002,result_00002_00001,result_00003_00000],1)
+sumleq([result_00000_00006,result_00001_00007,result_00002_00008,result_00003_00009],1)
+weightedsumgeq([1,1,1,1,2,1],[aux139,aux262,aux383,aux400,result_00001_00000,aux523],1)
+sumleq([result_00000_00002,result_00005_00007,result_00001_00003,result_00006_00008,result_00002_00004,result_00007_00009,result_00003_00005,result_00004_00006],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux509,aux235,aux297,aux302,aux325,aux357,result_00009_00006],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux511,aux296,aux324,aux358,aux422,aux428,result_00009_00005],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux189,aux268,aux337,aux412,aux429,result_00001_00006,aux446],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00000_00005,aux255,aux330,aux410,aux420,aux429,aux521],1)
+sumleq([result_00005_00001,result_00006_00002,result_00007_00003,result_00008_00004,result_00004_00000,result_00009_00005],1)
+sumleq([result_00000_00004,result_00001_00003,result_00002_00002,result_00003_00001,result_00004_00000],1)
+sumleq([result_00000_00005,result_00001_00006,result_00002_00007,result_00003_00008,result_00004_00009],1)
+weightedsumgeq([1,1,1,1,1,1,2,1],[aux140,aux174,aux214,aux274,aux366,aux389,result_00007_00003,aux480],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux526,aux274,aux363,aux387,aux426,result_00002_00002,aux60],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux189,aux262,aux385,aux402,aux423,result_00006_00001,aux453],1)
+weightedsumgeq([1,1,1,1,1,2],[aux141,aux168,aux285,aux348,aux369,result_00003_00005],1)
+weightedsumgeq([1,1,1,1,1,2],[aux142,aux167,aux286,aux348,aux367,result_00003_00004],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux507,aux142,aux279,aux302,aux314,aux375,result_00007_00008],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux139,aux271,aux308,aux362,aux388,aux448,result_00002_00001],1)
+sumleq([result_00006_00000,result_00007_00001,result_00008_00002,result_00009_00003],1)
+sumleq([result_00006_00009,result_00007_00008,result_00008_00007,result_00009_00006],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux464,aux237,aux241,aux265,aux335,aux409,result_00001_00005],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux142,aux240,aux273,aux366,aux387,result_00002_00003,aux519],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux116,aux140,aux298,aux325,aux355,aux474,result_00004_00006],1)
+sumleq([aux157,aux197],1)
+sumleq([aux158,aux198],1)
+sumleq([aux159,aux199],1)
+sumleq([aux160,aux200],1)
+sumleq([aux161,aux201],1)
+sumleq([aux162,aux202],1)
+sumleq([aux163,aux203],1)
+sumleq([aux164,aux204],1)
+sumleq([aux165,aux205],1)
+sumleq([aux166,aux206],1)
+sumleq([result_00005_00005,result_00001_00009,result_00006_00004,result_00002_00008,result_00007_00003,result_00003_00007,result_00008_00002,result_00004_00006,result_00009_00001],1)
+weightedsumgeq([1,1,1,1,2],[aux300,aux318,aux328,aux60,result_00009_00009],1)
+weightedsumgeq([1,1,1,1,2,1],[aux140,aux269,aux311,aux417,result_00001_00009,aux524],1)
+sumleq([result_00005_00002,result_00006_00003,result_00007_00004,result_00003_00000,result_00008_00005,result_00004_00001,result_00009_00006],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux191,aux272,aux360,aux388,aux447,result_00002_00000,aux515],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux508,aux189,aux271,aux360,aux390,result_00007_00000,aux481],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux141,aux242,aux263,aux386,aux404,result_00006_00002,aux451],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux186,aux189,aux275,aux341,aux370,result_00002_00005,aux467],1)
+weightedsumgeq([1,1,1,1,1,1,1,2],[aux173,aux213,aux238,aux300,aux317,aux327,aux468,result_00004_00008],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux140,aux283,aux303,aux364,aux393,result_00008_00002,aux498],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00000_00007,aux461,aux189,aux257,aux331,aux413,aux522],1)
+sumleq([result_00000_00004,result_00005_00009,result_00001_00005,result_00002_00006,result_00003_00007,result_00004_00008],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux513,aux238,aux294,aux304,aux322,aux397,result_00009_00003],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux458,aux187,aux283,aux365,aux392,aux60,result_00003_00003],1)
+sumleq([result_00000_00000,result_00005_00005,result_00001_00001,result_00006_00006,result_00002_00002,result_00007_00007,result_00003_00003,result_00008_00008,result_00004_00004,result_00009_00009],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux142,aux239,aux268,aux339,aux414,result_00006_00007,aux449],1)
+sumleq([result_00000_00006,result_00005_00001,result_00001_00005,result_00006_00000,result_00002_00004,result_00003_00003,result_00004_00002],1)
+weightedsumgeq([1,1,1,1,1,2,1],[aux141,aux267,aux305,aux337,aux414,result_00001_00007,aux470],1)
+weightedsumgeq([1,1,1,1,1,1,2],[aux140,aux209,aux213,aux287,aux349,aux373,result_00003_00007],1)
+weightedsumgeq([2,1,1,1,1,1,1],[result_00005_00001,aux237,aux242,aux252,aux382,aux401,aux495],1)
+sumleq([result_00000_00000,result_00000_00001],aux9)
+sumgeq([result_00000_00000,result_00000_00001],aux9)
+sumleq([result_00000_00002,result_00000_00003],aux10)
+sumgeq([result_00000_00002,result_00000_00003],aux10)
+sumleq([result_00000_00004,result_00000_00005],aux11)
+sumgeq([result_00000_00004,result_00000_00005],aux11)
+sumleq([result_00000_00006,result_00000_00007],aux12)
+sumgeq([result_00000_00006,result_00000_00007],aux12)
+sumleq([result_00000_00008,result_00000_00009],aux13)
+sumgeq([result_00000_00008,result_00000_00009],aux13)
+sumleq([result_00005_00000,result_00005_00001],aux14)
+sumgeq([result_00005_00000,result_00005_00001],aux14)
+sumleq([result_00005_00002,result_00005_00003],aux15)
+sumgeq([result_00005_00002,result_00005_00003],aux15)
+sumleq([result_00005_00004,result_00005_00005],aux16)
+sumgeq([result_00005_00004,result_00005_00005],aux16)
+sumleq([result_00005_00006,result_00005_00007],aux17)
+sumgeq([result_00005_00006,result_00005_00007],aux17)
+sumleq([result_00005_00008,result_00005_00009],aux18)
+sumgeq([result_00005_00008,result_00005_00009],aux18)
+sumleq([result_00001_00000,result_00001_00001],aux19)
+sumgeq([result_00001_00000,result_00001_00001],aux19)
+sumleq([result_00001_00002,result_00001_00003],aux20)
+sumgeq([result_00001_00002,result_00001_00003],aux20)
+sumleq([result_00001_00004,result_00001_00005],aux21)
+sumgeq([result_00001_00004,result_00001_00005],aux21)
+sumleq([result_00001_00006,result_00001_00007],aux22)
+sumgeq([result_00001_00006,result_00001_00007],aux22)
+sumleq([result_00001_00008,result_00001_00009],aux23)
+sumgeq([result_00001_00008,result_00001_00009],aux23)
+sumleq([result_00006_00000,result_00006_00001],aux24)
+sumgeq([result_00006_00000,result_00006_00001],aux24)
+sumleq([result_00006_00002,result_00006_00003],aux25)
+sumgeq([result_00006_00002,result_00006_00003],aux25)
+sumleq([result_00006_00004,result_00006_00005],aux26)
+sumgeq([result_00006_00004,result_00006_00005],aux26)
+sumleq([result_00006_00006,result_00006_00007],aux27)
+sumgeq([result_00006_00006,result_00006_00007],aux27)
+sumleq([result_00006_00008,result_00006_00009],aux28)
+sumgeq([result_00006_00008,result_00006_00009],aux28)
+sumleq([result_00002_00000,result_00002_00001],aux29)
+sumgeq([result_00002_00000,result_00002_00001],aux29)
+sumleq([result_00002_00002,result_00002_00003],aux30)
+sumgeq([result_00002_00002,result_00002_00003],aux30)
+sumleq([result_00002_00004,result_00002_00005],aux31)
+sumgeq([result_00002_00004,result_00002_00005],aux31)
+sumleq([result_00002_00006,result_00002_00007],aux32)
+sumgeq([result_00002_00006,result_00002_00007],aux32)
+sumleq([result_00002_00008,result_00002_00009],aux33)
+sumgeq([result_00002_00008,result_00002_00009],aux33)
+sumleq([result_00007_00000,result_00007_00001],aux34)
+sumgeq([result_00007_00000,result_00007_00001],aux34)
+sumleq([result_00007_00002,result_00007_00003],aux35)
+sumgeq([result_00007_00002,result_00007_00003],aux35)
+sumleq([result_00007_00004,result_00007_00005],aux36)
+sumgeq([result_00007_00004,result_00007_00005],aux36)
+sumleq([result_00007_00006,result_00007_00007],aux37)
+sumgeq([result_00007_00006,result_00007_00007],aux37)
+sumleq([result_00007_00008,result_00007_00009],aux38)
+sumgeq([result_00007_00008,result_00007_00009],aux38)
+sumleq([result_00003_00000,result_00003_00001],aux39)
+sumgeq([result_00003_00000,result_00003_00001],aux39)
+sumleq([result_00003_00002,result_00003_00003],aux40)
+sumgeq([result_00003_00002,result_00003_00003],aux40)
+sumleq([result_00003_00004,result_00003_00005],aux41)
+sumgeq([result_00003_00004,result_00003_00005],aux41)
+sumleq([result_00003_00006,result_00003_00007],aux42)
+sumgeq([result_00003_00006,result_00003_00007],aux42)
+sumleq([result_00003_00008,result_00003_00009],aux43)
+sumgeq([result_00003_00008,result_00003_00009],aux43)
+sumleq([result_00008_00000,result_00008_00001],aux44)
+sumgeq([result_00008_00000,result_00008_00001],aux44)
+sumleq([result_00008_00002,result_00008_00003],aux45)
+sumgeq([result_00008_00002,result_00008_00003],aux45)
+sumleq([result_00008_00004,result_00008_00005],aux46)
+sumgeq([result_00008_00004,result_00008_00005],aux46)
+sumleq([result_00008_00006,result_00008_00007],aux47)
+sumgeq([result_00008_00006,result_00008_00007],aux47)
+sumleq([result_00008_00008,result_00008_00009],aux48)
+sumgeq([result_00008_00008,result_00008_00009],aux48)
+sumleq([result_00004_00000,result_00004_00001],aux49)
+sumgeq([result_00004_00000,result_00004_00001],aux49)
+sumleq([result_00004_00002,result_00004_00003],aux50)
+sumgeq([result_00004_00002,result_00004_00003],aux50)
+sumleq([result_00004_00004,result_00004_00005],aux51)
+sumgeq([result_00004_00004,result_00004_00005],aux51)
+sumleq([result_00004_00006,result_00004_00007],aux52)
+sumgeq([result_00004_00006,result_00004_00007],aux52)
+sumleq([result_00004_00008,result_00004_00009],aux53)
+sumgeq([result_00004_00008,result_00004_00009],aux53)
+sumleq([result_00009_00000,result_00009_00001],aux54)
+sumgeq([result_00009_00000,result_00009_00001],aux54)
+sumleq([result_00009_00002,result_00009_00003],aux55)
+sumgeq([result_00009_00002,result_00009_00003],aux55)
+sumleq([result_00009_00004,result_00009_00005],aux56)
+sumgeq([result_00009_00004,result_00009_00005],aux56)
+sumleq([result_00009_00006,result_00009_00007],aux57)
+sumgeq([result_00009_00006,result_00009_00007],aux57)
+sumleq([result_00009_00008,result_00009_00009],aux58)
+sumgeq([result_00009_00008,result_00009_00009],aux58)
+sumleq([aux434,aux527,aux463,aux512,aux528,aux501,aux522,aux496,aux467,aux481],aux59)
+sumgeq([aux434,aux527,aux463,aux512,aux528,aux501,aux522,aux496,aux467,aux481],aux59)
+sumleq([aux439,aux529,aux460,aux511,aux530,aux500,aux515,aux491,aux472,aux476],aux60)
+sumgeq([aux439,aux529,aux460,aux511,aux530,aux500,aux515,aux491,aux472,aux476],aux60)
+sumleq([result_00000_00000,result_00005_00000],aux61)
+sumgeq([result_00000_00000,result_00005_00000],aux61)
+sumleq([result_00000_00001,result_00005_00001],aux62)
+sumgeq([result_00000_00001,result_00005_00001],aux62)
+sumleq([result_00000_00002,result_00005_00002],aux63)
+sumgeq([result_00000_00002,result_00005_00002],aux63)
+sumleq([result_00000_00003,result_00005_00003],aux64)
+sumgeq([result_00000_00003,result_00005_00003],aux64)
+sumleq([result_00000_00004,result_00005_00004],aux65)
+sumgeq([result_00000_00004,result_00005_00004],aux65)
+sumleq([result_00000_00005,result_00005_00005],aux66)
+sumgeq([result_00000_00005,result_00005_00005],aux66)
+sumleq([result_00000_00006,result_00005_00006],aux67)
+sumgeq([result_00000_00006,result_00005_00006],aux67)
+sumleq([result_00000_00007,result_00005_00007],aux68)
+sumgeq([result_00000_00007,result_00005_00007],aux68)
+sumleq([result_00000_00008,result_00005_00008],aux69)
+sumgeq([result_00000_00008,result_00005_00008],aux69)
+sumleq([result_00000_00009,result_00005_00009],aux70)
+sumgeq([result_00000_00009,result_00005_00009],aux70)
+sumleq([result_00001_00000,result_00006_00000],aux71)
+sumgeq([result_00001_00000,result_00006_00000],aux71)
+sumleq([result_00001_00001,result_00006_00001],aux72)
+sumgeq([result_00001_00001,result_00006_00001],aux72)
+sumleq([result_00001_00002,result_00006_00002],aux73)
+sumgeq([result_00001_00002,result_00006_00002],aux73)
+sumleq([result_00001_00003,result_00006_00003],aux74)
+sumgeq([result_00001_00003,result_00006_00003],aux74)
+sumleq([result_00001_00004,result_00006_00004],aux75)
+sumgeq([result_00001_00004,result_00006_00004],aux75)
+sumleq([result_00001_00005,result_00006_00005],aux76)
+sumgeq([result_00001_00005,result_00006_00005],aux76)
+sumleq([result_00001_00006,result_00006_00006],aux77)
+sumgeq([result_00001_00006,result_00006_00006],aux77)
+sumleq([result_00001_00007,result_00006_00007],aux78)
+sumgeq([result_00001_00007,result_00006_00007],aux78)
+sumleq([result_00001_00008,result_00006_00008],aux79)
+sumgeq([result_00001_00008,result_00006_00008],aux79)
+sumleq([result_00001_00009,result_00006_00009],aux80)
+sumgeq([result_00001_00009,result_00006_00009],aux80)
+sumleq([result_00002_00000,result_00007_00000],aux81)
+sumgeq([result_00002_00000,result_00007_00000],aux81)
+sumleq([result_00002_00001,result_00007_00001],aux82)
+sumgeq([result_00002_00001,result_00007_00001],aux82)
+sumleq([result_00002_00002,result_00007_00002],aux83)
+sumgeq([result_00002_00002,result_00007_00002],aux83)
+sumleq([result_00002_00003,result_00007_00003],aux84)
+sumgeq([result_00002_00003,result_00007_00003],aux84)
+sumleq([result_00002_00004,result_00007_00004],aux85)
+sumgeq([result_00002_00004,result_00007_00004],aux85)
+sumleq([result_00002_00005,result_00007_00005],aux86)
+sumgeq([result_00002_00005,result_00007_00005],aux86)
+sumleq([result_00002_00006,result_00007_00006],aux87)
+sumgeq([result_00002_00006,result_00007_00006],aux87)
+sumleq([result_00002_00007,result_00007_00007],aux88)
+sumgeq([result_00002_00007,result_00007_00007],aux88)
+sumleq([result_00002_00008,result_00007_00008],aux89)
+sumgeq([result_00002_00008,result_00007_00008],aux89)
+sumleq([result_00002_00009,result_00007_00009],aux90)
+sumgeq([result_00002_00009,result_00007_00009],aux90)
+sumleq([result_00003_00000,result_00008_00000],aux91)
+sumgeq([result_00003_00000,result_00008_00000],aux91)
+sumleq([result_00003_00001,result_00008_00001],aux92)
+sumgeq([result_00003_00001,result_00008_00001],aux92)
+sumleq([result_00003_00002,result_00008_00002],aux93)
+sumgeq([result_00003_00002,result_00008_00002],aux93)
+sumleq([result_00003_00003,result_00008_00003],aux94)
+sumgeq([result_00003_00003,result_00008_00003],aux94)
+sumleq([result_00003_00004,result_00008_00004],aux95)
+sumgeq([result_00003_00004,result_00008_00004],aux95)
+sumleq([result_00003_00005,result_00008_00005],aux96)
+sumgeq([result_00003_00005,result_00008_00005],aux96)
+sumleq([result_00003_00006,result_00008_00006],aux97)
+sumgeq([result_00003_00006,result_00008_00006],aux97)
+sumleq([result_00003_00007,result_00008_00007],aux98)
+sumgeq([result_00003_00007,result_00008_00007],aux98)
+sumleq([result_00003_00008,result_00008_00008],aux99)
+sumgeq([result_00003_00008,result_00008_00008],aux99)
+sumleq([result_00003_00009,result_00008_00009],aux100)
+sumgeq([result_00003_00009,result_00008_00009],aux100)
+sumleq([result_00004_00000,result_00009_00000],aux101)
+sumgeq([result_00004_00000,result_00009_00000],aux101)
+sumleq([result_00004_00001,result_00009_00001],aux102)
+sumgeq([result_00004_00001,result_00009_00001],aux102)
+sumleq([result_00004_00002,result_00009_00002],aux103)
+sumgeq([result_00004_00002,result_00009_00002],aux103)
+sumleq([result_00004_00003,result_00009_00003],aux104)
+sumgeq([result_00004_00003,result_00009_00003],aux104)
+sumleq([result_00004_00004,result_00009_00004],aux105)
+sumgeq([result_00004_00004,result_00009_00004],aux105)
+sumleq([result_00004_00005,result_00009_00005],aux106)
+sumgeq([result_00004_00005,result_00009_00005],aux106)
+sumleq([result_00004_00006,result_00009_00006],aux107)
+sumgeq([result_00004_00006,result_00009_00006],aux107)
+sumleq([result_00004_00007,result_00009_00007],aux108)
+sumgeq([result_00004_00007,result_00009_00007],aux108)
+sumleq([result_00004_00008,result_00009_00008],aux109)
+sumgeq([result_00004_00008,result_00009_00008],aux109)
+sumleq([result_00004_00009,result_00009_00009],aux110)
+sumgeq([result_00004_00009,result_00009_00009],aux110)
+sumleq([aux440,aux432,aux455,aux483,aux441,aux489,aux471,aux475],aux111)
+sumgeq([aux440,aux432,aux455,aux483,aux441,aux489,aux471,aux475],aux111)
+sumleq([aux433,aux431,aux462,aux486,aux442,aux497,aux468,aux482],aux112)
+sumgeq([aux433,aux431,aux462,aux486,aux442,aux497,aux468,aux482],aux112)
+sumleq([aux464,aux513,aux524,aux502,aux520,aux495,aux474,aux488],aux113)
+sumgeq([aux464,aux513,aux524,aux502,aux520,aux495,aux474,aux488],aux113)
+sumleq([aux459,aux509,aux523,aux499,aux517,aux490,aux473,aux487],aux114)
+sumgeq([aux459,aux509,aux523,aux499,aux517,aux490,aux473,aux487],aux114)
+sumleq([aux457,aux514,aux444,aux452,aux521,aux494],aux115)
+sumgeq([aux457,aux514,aux444,aux452,aux521,aux494],aux115)
+sumleq([aux458,aux510,aux447,aux454,aux516,aux492],aux116)
+sumgeq([aux458,aux510,aux447,aux454,aux516,aux492],aux116)
+sumleq([aux437,aux506,aux456,aux484,aux466,aux478],aux117)
+sumgeq([aux437,aux506,aux456,aux484,aux466,aux478],aux117)
+sumleq([aux436,aux508,aux461,aux485,aux469,aux479],aux118)
+sumgeq([aux436,aux508,aux461,aux485,aux469,aux479],aux118)
+sumleq([aux9,aux10],aux119)
+sumgeq([aux9,aux10],aux119)
+sumleq([aux11,aux12],aux120)
+sumgeq([aux11,aux12],aux120)
+sumleq([aux14,aux15],aux121)
+sumgeq([aux14,aux15],aux121)
+sumleq([aux16,aux17],aux122)
+sumgeq([aux16,aux17],aux122)
+sumleq([aux19,aux20],aux123)
+sumgeq([aux19,aux20],aux123)
+sumleq([aux21,aux22],aux124)
+sumgeq([aux21,aux22],aux124)
+sumleq([aux24,aux25],aux125)
+sumgeq([aux24,aux25],aux125)
+sumleq([aux26,aux27],aux126)
+sumgeq([aux26,aux27],aux126)
+sumleq([aux29,aux30],aux127)
+sumgeq([aux29,aux30],aux127)
+sumleq([aux31,aux32],aux128)
+sumgeq([aux31,aux32],aux128)
+sumleq([aux34,aux35],aux129)
+sumgeq([aux34,aux35],aux129)
+sumleq([aux36,aux37],aux130)
+sumgeq([aux36,aux37],aux130)
+sumleq([aux39,aux40],aux131)
+sumgeq([aux39,aux40],aux131)
+sumleq([aux41,aux42],aux132)
+sumgeq([aux41,aux42],aux132)
+sumleq([aux44,aux45],aux133)
+sumgeq([aux44,aux45],aux133)
+sumleq([aux46,aux47],aux134)
+sumgeq([aux46,aux47],aux134)
+sumleq([aux49,aux50],aux135)
+sumgeq([aux49,aux50],aux135)
+sumleq([aux51,aux52],aux136)
+sumgeq([aux51,aux52],aux136)
+sumleq([aux54,aux55],aux137)
+sumgeq([aux54,aux55],aux137)
+sumleq([aux56,aux57],aux138)
+sumgeq([aux56,aux57],aux138)
+sumleq([aux111,aux501],aux139)
+sumgeq([aux111,aux501],aux139)
+sumleq([aux112,aux500],aux140)
+sumgeq([aux112,aux500],aux140)
+sumleq([aux439,aux113],aux141)
+sumgeq([aux439,aux113],aux141)
+sumleq([aux434,aux114],aux142)
+sumgeq([aux434,aux114],aux142)
+sumleq([aux438,aux507,aux465,aux477],aux143)
+sumgeq([aux438,aux507,aux465,aux477],aux143)
+sumleq([aux448,aux449,aux519,aux493],aux144)
+sumgeq([aux448,aux449,aux519,aux493],aux144)
+sumleq([aux443,aux451,aux518,aux498],aux145)
+sumgeq([aux443,aux451,aux518,aux498],aux145)
+sumleq([aux435,aux505,aux470,aux480],aux146)
+sumgeq([aux435,aux505,aux470,aux480],aux146)
+sumleq([aux61,aux71],aux147)
+sumgeq([aux61,aux71],aux147)
+sumleq([aux62,aux72],aux148)
+sumgeq([aux62,aux72],aux148)
+sumleq([aux63,aux73],aux149)
+sumgeq([aux63,aux73],aux149)
+sumleq([aux64,aux74],aux150)
+sumgeq([aux64,aux74],aux150)
+sumleq([aux65,aux75],aux151)
+sumgeq([aux65,aux75],aux151)
+sumleq([aux66,aux76],aux152)
+sumgeq([aux66,aux76],aux152)
+sumleq([aux67,aux77],aux153)
+sumgeq([aux67,aux77],aux153)
+sumleq([aux68,aux78],aux154)
+sumgeq([aux68,aux78],aux154)
+sumleq([aux69,aux79],aux155)
+sumgeq([aux69,aux79],aux155)
+sumleq([aux70,aux80],aux156)
+sumgeq([aux70,aux80],aux156)
+sumleq([aux81,aux91],aux157)
+sumgeq([aux81,aux91],aux157)
+sumleq([aux82,aux92],aux158)
+sumgeq([aux82,aux92],aux158)
+sumleq([aux83,aux93],aux159)
+sumgeq([aux83,aux93],aux159)
+sumleq([aux84,aux94],aux160)
+sumgeq([aux84,aux94],aux160)
+sumleq([aux85,aux95],aux161)
+sumgeq([aux85,aux95],aux161)
+sumleq([aux86,aux96],aux162)
+sumgeq([aux86,aux96],aux162)
+sumleq([aux87,aux97],aux163)
+sumgeq([aux87,aux97],aux163)
+sumleq([aux88,aux98],aux164)
+sumgeq([aux88,aux98],aux164)
+sumleq([aux89,aux99],aux165)
+sumgeq([aux89,aux99],aux165)
+sumleq([aux100,aux90],aux166)
+sumgeq([aux100,aux90],aux166)
+sumleq([aux440,aux115],aux167)
+sumgeq([aux440,aux115],aux167)
+sumleq([aux433,aux116],aux168)
+sumgeq([aux433,aux116],aux168)
+sumleq([aux117,aux502],aux169)
+sumgeq([aux117,aux502],aux169)
+sumleq([aux118,aux499],aux170)
+sumgeq([aux118,aux499],aux170)
+sumleq([aux525,aux503],aux171)
+sumgeq([aux525,aux503],aux171)
+sumleq([aux446,aux453],aux172)
+sumgeq([aux446,aux453],aux172)
+sumleq([aux445,aux450],aux173)
+sumgeq([aux445,aux450],aux173)
+sumleq([aux526,aux504],aux174)
+sumgeq([aux526,aux504],aux174)
+sumleq([aux119,aux13],aux175)
+sumgeq([aux119,aux13],aux175)
+sumleq([aux121,aux18],aux176)
+sumgeq([aux121,aux18],aux176)
+sumleq([aux123,aux23],aux177)
+sumgeq([aux123,aux23],aux177)
+sumleq([aux125,aux28],aux178)
+sumgeq([aux125,aux28],aux178)
+sumleq([aux127,aux33],aux179)
+sumgeq([aux127,aux33],aux179)
+sumleq([aux129,aux38],aux180)
+sumgeq([aux129,aux38],aux180)
+sumleq([aux131,aux43],aux181)
+sumgeq([aux131,aux43],aux181)
+sumleq([aux133,aux48],aux182)
+sumgeq([aux133,aux48],aux182)
+sumleq([aux135,aux53],aux183)
+sumgeq([aux135,aux53],aux183)
+sumleq([aux137,aux58],aux184)
+sumgeq([aux137,aux58],aux184)
+sumleq([aux485,aux143],aux185)
+sumgeq([aux485,aux143],aux185)
+sumleq([aux436,aux144],aux186)
+sumgeq([aux436,aux144],aux186)
+sumleq([aux437,aux145],aux187)
+sumgeq([aux437,aux145],aux187)
+sumleq([aux484,aux146],aux188)
+sumgeq([aux484,aux146],aux188)
+sumleq([aux167,aux473],aux189)
+sumgeq([aux167,aux473],aux189)
+sumleq([aux168,aux474],aux190)
+sumgeq([aux168,aux474],aux190)
+sumleq([aux169,aux497],aux191)
+sumgeq([aux169,aux497],aux191)
+sumleq([aux170,aux489],aux192)
+sumgeq([aux170,aux489],aux192)
+sumleq([aux452,aux496],aux193)
+sumgeq([aux452,aux496],aux193)
+sumleq([aux457,aux467],aux194)
+sumgeq([aux457,aux467],aux194)
+sumleq([aux458,aux472],aux195)
+sumgeq([aux458,aux472],aux195)
+sumleq([aux454,aux491],aux196)
+sumgeq([aux454,aux491],aux196)
+sumleq([aux101,aux147],aux197)
+sumgeq([aux101,aux147],aux197)
+sumleq([aux102,aux148],aux198)
+sumgeq([aux102,aux148],aux198)
+sumleq([aux103,aux149],aux199)
+sumgeq([aux103,aux149],aux199)
+sumleq([aux104,aux150],aux200)
+sumgeq([aux104,aux150],aux200)
+sumleq([aux105,aux151],aux201)
+sumgeq([aux105,aux151],aux201)
+sumleq([aux106,aux152],aux202)
+sumgeq([aux106,aux152],aux202)
+sumleq([aux107,aux153],aux203)
+sumgeq([aux107,aux153],aux203)
+sumleq([aux108,aux154],aux204)
+sumgeq([aux108,aux154],aux204)
+sumleq([aux109,aux155],aux205)
+sumgeq([aux109,aux155],aux205)
+sumleq([aux110,aux156],aux206)
+sumgeq([aux110,aux156],aux206)
+sumleq([aux483,aux171],aux207)
+sumgeq([aux483,aux171],aux207)
+sumleq([aux438,aux172],aux208)
+sumgeq([aux438,aux172],aux208)
+sumleq([aux435,aux173],aux209)
+sumgeq([aux435,aux173],aux209)
+sumleq([aux486,aux174],aux210)
+sumgeq([aux486,aux174],aux210)
+sumleq([aux449,aux490],aux211)
+sumgeq([aux449,aux490],aux211)
+sumleq([aux459,aux519],aux212)
+sumgeq([aux459,aux519],aux212)
+sumleq([aux464,aux518],aux213)
+sumgeq([aux464,aux518],aux213)
+sumleq([aux451,aux495],aux214)
+sumgeq([aux451,aux495],aux214)
+sumleq([aux120,aux13],aux215)
+sumgeq([aux120,aux13],aux215)
+sumleq([aux122,aux18],aux216)
+sumgeq([aux122,aux18],aux216)
+sumleq([aux124,aux23],aux217)
+sumgeq([aux124,aux23],aux217)
+sumleq([aux126,aux28],aux218)
+sumgeq([aux126,aux28],aux218)
+sumleq([aux128,aux33],aux219)
+sumgeq([aux128,aux33],aux219)
+sumleq([aux130,aux38],aux220)
+sumgeq([aux130,aux38],aux220)
+sumleq([aux132,aux43],aux221)
+sumgeq([aux132,aux43],aux221)
+sumleq([aux134,aux48],aux222)
+sumgeq([aux134,aux48],aux222)
+sumleq([aux136,aux53],aux223)
+sumgeq([aux136,aux53],aux223)
+sumleq([aux138,aux58],aux224)
+sumgeq([aux138,aux58],aux224)
+sumleq([aux101,aux157],aux225)
+sumgeq([aux101,aux157],aux225)
+sumleq([aux102,aux158],aux226)
+sumgeq([aux102,aux158],aux226)
+sumleq([aux103,aux159],aux227)
+sumgeq([aux103,aux159],aux227)
+sumleq([aux104,aux160],aux228)
+sumgeq([aux104,aux160],aux228)
+sumleq([aux105,aux161],aux229)
+sumgeq([aux105,aux161],aux229)
+sumleq([aux106,aux162],aux230)
+sumgeq([aux106,aux162],aux230)
+sumleq([aux107,aux163],aux231)
+sumgeq([aux107,aux163],aux231)
+sumleq([aux108,aux164],aux232)
+sumgeq([aux108,aux164],aux232)
+sumleq([aux109,aux165],aux233)
+sumgeq([aux109,aux165],aux233)
+sumleq([aux110,aux166],aux234)
+sumgeq([aux110,aux166],aux234)
+sumleq([aux185,aux193],aux235)
+sumgeq([aux185,aux193],aux235)
+sumleq([aux186,aux194],aux236)
+sumgeq([aux186,aux194],aux236)
+sumleq([aux187,aux195],aux237)
+sumgeq([aux187,aux195],aux237)
+sumleq([aux188,aux196],aux238)
+sumgeq([aux188,aux196],aux238)
+sumleq([aux207,aux477],aux239)
+sumgeq([aux207,aux477],aux239)
+sumleq([aux208,aux471],aux240)
+sumgeq([aux208,aux471],aux240)
+sumleq([aux209,aux468],aux241)
+sumgeq([aux209,aux468],aux241)
+sumleq([aux210,aux480],aux242)
+sumgeq([aux210,aux480],aux242)
+sumleq([aux503,aux512],aux243)
+sumgeq([aux503,aux512],aux243)
+sumleq([aux453,aux494],aux244)
+sumgeq([aux453,aux494],aux244)
+sumleq([aux526,aux460],aux245)
+sumgeq([aux526,aux460],aux245)
+sumleq([aux445,aux516],aux246)
+sumgeq([aux445,aux516],aux246)
+sumleq([aux504,aux511],aux247)
+sumgeq([aux504,aux511],aux247)
+sumleq([aux450,aux492],aux248)
+sumgeq([aux450,aux492],aux248)
+sumleq([aux525,aux463],aux249)
+sumgeq([aux525,aux463],aux249)
+sumleq([aux446,aux521],aux250)
+sumgeq([aux446,aux521],aux250)
+sumleq([result_00000_00000,result_00005_00001],aux251)
+sumgeq([result_00000_00000,result_00005_00001],aux251)
+sumleq([result_00000_00001,result_00005_00000],aux252)
+sumgeq([result_00000_00001,result_00005_00000],aux252)
+sumleq([result_00000_00002,result_00005_00003],aux253)
+sumgeq([result_00000_00002,result_00005_00003],aux253)
+sumleq([result_00000_00003,result_00005_00002],aux254)
+sumgeq([result_00000_00003,result_00005_00002],aux254)
+sumleq([result_00000_00004,result_00005_00005],aux255)
+sumgeq([result_00000_00004,result_00005_00005],aux255)
+sumleq([result_00000_00005,result_00005_00004],aux256)
+sumgeq([result_00000_00005,result_00005_00004],aux256)
+sumleq([result_00000_00006,result_00005_00007],aux257)
+sumgeq([result_00000_00006,result_00005_00007],aux257)
+sumleq([result_00000_00007,result_00005_00006],aux258)
+sumgeq([result_00000_00007,result_00005_00006],aux258)
+sumleq([result_00000_00008,result_00005_00009],aux259)
+sumgeq([result_00000_00008,result_00005_00009],aux259)
+sumleq([result_00000_00009,result_00005_00008],aux260)
+sumgeq([result_00000_00009,result_00005_00008],aux260)
+sumleq([result_00001_00000,result_00006_00001],aux261)
+sumgeq([result_00001_00000,result_00006_00001],aux261)
+sumleq([result_00001_00001,result_00006_00000],aux262)
+sumgeq([result_00001_00001,result_00006_00000],aux262)
+sumleq([result_00001_00002,result_00006_00003],aux263)
+sumgeq([result_00001_00002,result_00006_00003],aux263)
+sumleq([result_00001_00003,result_00006_00002],aux264)
+sumgeq([result_00001_00003,result_00006_00002],aux264)
+sumleq([result_00001_00004,result_00006_00005],aux265)
+sumgeq([result_00001_00004,result_00006_00005],aux265)
+sumleq([result_00001_00005,result_00006_00004],aux266)
+sumgeq([result_00001_00005,result_00006_00004],aux266)
+sumleq([result_00001_00006,result_00006_00007],aux267)
+sumgeq([result_00001_00006,result_00006_00007],aux267)
+sumleq([result_00001_00007,result_00006_00006],aux268)
+sumgeq([result_00001_00007,result_00006_00006],aux268)
+sumleq([result_00001_00008,result_00006_00009],aux269)
+sumgeq([result_00001_00008,result_00006_00009],aux269)
+sumleq([result_00001_00009,result_00006_00008],aux270)
+sumgeq([result_00001_00009,result_00006_00008],aux270)
+sumleq([result_00002_00000,result_00007_00001],aux271)
+sumgeq([result_00002_00000,result_00007_00001],aux271)
+sumleq([result_00002_00001,result_00007_00000],aux272)
+sumgeq([result_00002_00001,result_00007_00000],aux272)
+sumleq([result_00002_00002,result_00007_00003],aux273)
+sumgeq([result_00002_00002,result_00007_00003],aux273)
+sumleq([result_00002_00003,result_00007_00002],aux274)
+sumgeq([result_00002_00003,result_00007_00002],aux274)
+sumleq([result_00002_00004,result_00007_00005],aux275)
+sumgeq([result_00002_00004,result_00007_00005],aux275)
+sumleq([result_00002_00005,result_00007_00004],aux276)
+sumgeq([result_00002_00005,result_00007_00004],aux276)
+sumleq([result_00002_00006,result_00007_00007],aux277)
+sumgeq([result_00002_00006,result_00007_00007],aux277)
+sumleq([result_00002_00007,result_00007_00006],aux278)
+sumgeq([result_00002_00007,result_00007_00006],aux278)
+sumleq([result_00002_00008,result_00007_00009],aux279)
+sumgeq([result_00002_00008,result_00007_00009],aux279)
+sumleq([result_00002_00009,result_00007_00008],aux280)
+sumgeq([result_00002_00009,result_00007_00008],aux280)
+sumleq([result_00003_00000,result_00008_00001],aux281)
+sumgeq([result_00003_00000,result_00008_00001],aux281)
+sumleq([result_00003_00001,result_00008_00000],aux282)
+sumgeq([result_00003_00001,result_00008_00000],aux282)
+sumleq([result_00003_00002,result_00008_00003],aux283)
+sumgeq([result_00003_00002,result_00008_00003],aux283)
+sumleq([result_00003_00003,result_00008_00002],aux284)
+sumgeq([result_00003_00003,result_00008_00002],aux284)
+sumleq([result_00003_00004,result_00008_00005],aux285)
+sumgeq([result_00003_00004,result_00008_00005],aux285)
+sumleq([result_00003_00005,result_00008_00004],aux286)
+sumgeq([result_00003_00005,result_00008_00004],aux286)
+sumleq([result_00003_00006,result_00008_00007],aux287)
+sumgeq([result_00003_00006,result_00008_00007],aux287)
+sumleq([result_00003_00007,result_00008_00006],aux288)
+sumgeq([result_00003_00007,result_00008_00006],aux288)
+sumleq([result_00003_00008,result_00008_00009],aux289)
+sumgeq([result_00003_00008,result_00008_00009],aux289)
+sumleq([result_00003_00009,result_00008_00008],aux290)
+sumgeq([result_00003_00009,result_00008_00008],aux290)
+sumleq([result_00004_00000,result_00009_00001],aux291)
+sumgeq([result_00004_00000,result_00009_00001],aux291)
+sumleq([result_00004_00001,result_00009_00000],aux292)
+sumgeq([result_00004_00001,result_00009_00000],aux292)
+sumleq([result_00004_00002,result_00009_00003],aux293)
+sumgeq([result_00004_00002,result_00009_00003],aux293)
+sumleq([result_00004_00003,result_00009_00002],aux294)
+sumgeq([result_00004_00003,result_00009_00002],aux294)
+sumleq([result_00004_00004,result_00009_00005],aux295)
+sumgeq([result_00004_00004,result_00009_00005],aux295)
+sumleq([result_00004_00005,result_00009_00004],aux296)
+sumgeq([result_00004_00005,result_00009_00004],aux296)
+sumleq([result_00004_00006,result_00009_00007],aux297)
+sumgeq([result_00004_00006,result_00009_00007],aux297)
+sumleq([result_00004_00007,result_00009_00006],aux298)
+sumgeq([result_00004_00007,result_00009_00006],aux298)
+sumleq([result_00004_00008,result_00009_00009],aux299)
+sumgeq([result_00004_00008,result_00009_00009],aux299)
+sumleq([result_00004_00009,result_00009_00008],aux300)
+sumgeq([result_00004_00009,result_00009_00008],aux300)
+sumleq([aux507,aux509],aux301)
+sumgeq([aux507,aux509],aux301)
+sumleq([aux493,aux475],aux302)
+sumgeq([aux493,aux475],aux302)
+sumleq([aux505,aux513],aux303)
+sumgeq([aux505,aux513],aux303)
+sumleq([aux498,aux482],aux304)
+sumgeq([aux498,aux482],aux304)
+sumleq([aux462,aux443],aux305)
+sumgeq([aux462,aux443],aux305)
+sumleq([aux520,aux470],aux306)
+sumgeq([aux520,aux470],aux306)
+sumleq([aux455,aux448],aux307)
+sumgeq([aux455,aux448],aux307)
+sumleq([aux517,aux465],aux308)
+sumgeq([aux517,aux465],aux308)
+sumleq([aux119,aux120],aux309)
+sumgeq([aux119,aux120],aux309)
+sumleq([aux121,aux122],aux310)
+sumgeq([aux121,aux122],aux310)
+sumleq([aux123,aux124],aux311)
+sumgeq([aux123,aux124],aux311)
+sumleq([aux125,aux126],aux312)
+sumgeq([aux125,aux126],aux312)
+sumleq([aux127,aux128],aux313)
+sumgeq([aux127,aux128],aux313)
+sumleq([aux129,aux130],aux314)
+sumgeq([aux129,aux130],aux314)
+sumleq([aux131,aux132],aux315)
+sumgeq([aux131,aux132],aux315)
+sumleq([aux133,aux134],aux316)
+sumgeq([aux133,aux134],aux316)
+sumleq([aux135,aux136],aux317)
+sumgeq([aux135,aux136],aux317)
+sumleq([aux137,aux138],aux318)
+sumgeq([aux137,aux138],aux318)
+sumleq([aux147,aux157],aux319)
+sumgeq([aux147,aux157],aux319)
+sumleq([aux148,aux158],aux320)
+sumgeq([aux148,aux158],aux320)
+sumleq([aux149,aux159],aux321)
+sumgeq([aux149,aux159],aux321)
+sumleq([aux150,aux160],aux322)
+sumgeq([aux150,aux160],aux322)
+sumleq([aux151,aux161],aux323)
+sumgeq([aux151,aux161],aux323)
+sumleq([aux152,aux162],aux324)
+sumgeq([aux152,aux162],aux324)
+sumleq([aux153,aux163],aux325)
+sumgeq([aux153,aux163],aux325)
+sumleq([aux154,aux164],aux326)
+sumgeq([aux154,aux164],aux326)
+sumleq([aux155,aux165],aux327)
+sumgeq([aux155,aux165],aux327)
+sumleq([aux156,aux166],aux328)
+sumgeq([aux156,aux166],aux328)
+sumleq([aux120,aux175],aux329)
+sumgeq([aux120,aux175],aux329)
+sumleq([aux175,aux12],aux330)
+sumgeq([aux175,aux12],aux330)
+sumleq([aux175,aux11],aux331)
+sumgeq([aux175,aux11],aux331)
+sumleq([aux122,aux176],aux332)
+sumgeq([aux122,aux176],aux332)
+sumleq([aux176,aux16],aux333)
+sumgeq([aux176,aux16],aux333)
+sumleq([aux176,aux17],aux334)
+sumgeq([aux176,aux17],aux334)
+sumleq([aux177,aux22],aux335)
+sumgeq([aux177,aux22],aux335)
+sumleq([aux124,aux177],aux336)
+sumgeq([aux124,aux177],aux336)
+sumleq([aux177,aux21],aux337)
+sumgeq([aux177,aux21],aux337)
+sumleq([aux178,aux27],aux338)
+sumgeq([aux178,aux27],aux338)
+sumleq([aux178,aux26],aux339)
+sumgeq([aux178,aux26],aux339)
+sumleq([aux126,aux178],aux340)
+sumgeq([aux126,aux178],aux340)
+sumleq([aux179,aux32],aux341)
+sumgeq([aux179,aux32],aux341)
+sumleq([aux128,aux179],aux342)
+sumgeq([aux128,aux179],aux342)
+sumleq([aux179,aux31],aux343)
+sumgeq([aux179,aux31],aux343)
+sumleq([aux130,aux180],aux344)
+sumgeq([aux130,aux180],aux344)
+sumleq([aux180,aux37],aux345)
+sumgeq([aux180,aux37],aux345)
+sumleq([aux180,aux36],aux346)
+sumgeq([aux180,aux36],aux346)
+sumleq([aux132,aux181],aux347)
+sumgeq([aux132,aux181],aux347)
+sumleq([aux181,aux42],aux348)
+sumgeq([aux181,aux42],aux348)
+sumleq([aux181,aux41],aux349)
+sumgeq([aux181,aux41],aux349)
+sumleq([aux182,aux47],aux350)
+sumgeq([aux182,aux47],aux350)
+sumleq([aux134,aux182],aux351)
+sumgeq([aux134,aux182],aux351)
+sumleq([aux182,aux46],aux352)
+sumgeq([aux182,aux46],aux352)
+sumleq([aux136,aux183],aux353)
+sumgeq([aux136,aux183],aux353)
+sumleq([aux183,aux52],aux354)
+sumgeq([aux183,aux52],aux354)
+sumleq([aux183,aux51],aux355)
+sumgeq([aux183,aux51],aux355)
+sumleq([aux138,aux184],aux356)
+sumgeq([aux138,aux184],aux356)
+sumleq([aux184,aux56],aux357)
+sumgeq([aux184,aux56],aux357)
+sumleq([aux184,aux57],aux358)
+sumgeq([aux184,aux57],aux358)
+sumleq([aux197,aux81],aux359)
+sumgeq([aux197,aux81],aux359)
+sumleq([aux197,aux91],aux360)
+sumgeq([aux197,aux91],aux360)
+sumleq([aux198,aux82],aux361)
+sumgeq([aux198,aux82],aux361)
+sumleq([aux198,aux92],aux362)
+sumgeq([aux198,aux92],aux362)
+sumleq([aux199,aux93],aux363)
+sumgeq([aux199,aux93],aux363)
+sumleq([aux199,aux83],aux364)
+sumgeq([aux199,aux83],aux364)
+sumleq([aux200,aux84],aux365)
+sumgeq([aux200,aux84],aux365)
+sumleq([aux200,aux94],aux366)
+sumgeq([aux200,aux94],aux366)
+sumleq([aux201,aux85],aux367)
+sumgeq([aux201,aux85],aux367)
+sumleq([aux201,aux95],aux368)
+sumgeq([aux201,aux95],aux368)
+sumleq([aux202,aux86],aux369)
+sumgeq([aux202,aux86],aux369)
+sumleq([aux202,aux96],aux370)
+sumgeq([aux202,aux96],aux370)
+sumleq([aux203,aux87],aux371)
+sumgeq([aux203,aux87],aux371)
+sumleq([aux203,aux97],aux372)
+sumgeq([aux203,aux97],aux372)
+sumleq([aux204,aux88],aux373)
+sumgeq([aux204,aux88],aux373)
+sumleq([aux204,aux98],aux374)
+sumgeq([aux204,aux98],aux374)
+sumleq([aux205,aux99],aux375)
+sumgeq([aux205,aux99],aux375)
+sumleq([aux205,aux89],aux376)
+sumgeq([aux205,aux89],aux376)
+sumleq([aux100,aux206],aux377)
+sumgeq([aux100,aux206],aux377)
+sumleq([aux206,aux90],aux378)
+sumgeq([aux206,aux90],aux378)
+sumleq([aux215,aux10],aux379)
+sumgeq([aux215,aux10],aux379)
+sumleq([aux215,aux9],aux380)
+sumgeq([aux215,aux9],aux380)
+sumleq([aux216,aux14],aux381)
+sumgeq([aux216,aux14],aux381)
+sumleq([aux216,aux15],aux382)
+sumgeq([aux216,aux15],aux382)
+sumleq([aux217,aux20],aux383)
+sumgeq([aux217,aux20],aux383)
+sumleq([aux217,aux19],aux384)
+sumgeq([aux217,aux19],aux384)
+sumleq([aux218,aux25],aux385)
+sumgeq([aux218,aux25],aux385)
+sumleq([aux218,aux24],aux386)
+sumgeq([aux218,aux24],aux386)
+sumleq([aux219,aux29],aux387)
+sumgeq([aux219,aux29],aux387)
+sumleq([aux219,aux30],aux388)
+sumgeq([aux219,aux30],aux388)
+sumleq([aux220,aux34],aux389)
+sumgeq([aux220,aux34],aux389)
+sumleq([aux220,aux35],aux390)
+sumgeq([aux220,aux35],aux390)
+sumleq([aux221,aux40],aux391)
+sumgeq([aux221,aux40],aux391)
+sumleq([aux221,aux39],aux392)
+sumgeq([aux221,aux39],aux392)
+sumleq([aux222,aux44],aux393)
+sumgeq([aux222,aux44],aux393)
+sumleq([aux222,aux45],aux394)
+sumgeq([aux222,aux45],aux394)
+sumleq([aux223,aux49],aux395)
+sumgeq([aux223,aux49],aux395)
+sumleq([aux223,aux50],aux396)
+sumgeq([aux223,aux50],aux396)
+sumleq([aux224,aux54],aux397)
+sumgeq([aux224,aux54],aux397)
+sumleq([aux224,aux55],aux398)
+sumgeq([aux224,aux55],aux398)
+sumleq([aux225,aux71],aux399)
+sumgeq([aux225,aux71],aux399)
+sumleq([aux225,aux61],aux400)
+sumgeq([aux225,aux61],aux400)
+sumleq([aux226,aux72],aux401)
+sumgeq([aux226,aux72],aux401)
+sumleq([aux226,aux62],aux402)
+sumgeq([aux226,aux62],aux402)
+sumleq([aux227,aux73],aux403)
+sumgeq([aux227,aux73],aux403)
+sumleq([aux227,aux63],aux404)
+sumgeq([aux227,aux63],aux404)
+sumleq([aux228,aux74],aux405)
+sumgeq([aux228,aux74],aux405)
+sumleq([aux228,aux64],aux406)
+sumgeq([aux228,aux64],aux406)
+sumleq([aux229,aux75],aux407)
+sumgeq([aux229,aux75],aux407)
+sumleq([aux229,aux65],aux408)
+sumgeq([aux229,aux65],aux408)
+sumleq([aux230,aux66],aux409)
+sumgeq([aux230,aux66],aux409)
+sumleq([aux230,aux76],aux410)
+sumgeq([aux230,aux76],aux410)
+sumleq([aux231,aux77],aux411)
+sumgeq([aux231,aux77],aux411)
+sumleq([aux231,aux67],aux412)
+sumgeq([aux231,aux67],aux412)
+sumleq([aux232,aux78],aux413)
+sumgeq([aux232,aux78],aux413)
+sumleq([aux232,aux68],aux414)
+sumgeq([aux232,aux68],aux414)
+sumleq([aux233,aux69],aux415)
+sumgeq([aux233,aux69],aux415)
+sumleq([aux233,aux79],aux416)
+sumgeq([aux233,aux79],aux416)
+sumleq([aux234,aux70],aux417)
+sumgeq([aux234,aux70],aux417)
+sumleq([aux234,aux80],aux418)
+sumgeq([aux234,aux80],aux418)
+sumleq([aux211,aux239],aux419)
+sumgeq([aux211,aux239],aux419)
+sumleq([aux212,aux240],aux420)
+sumgeq([aux212,aux240],aux420)
+sumleq([aux213,aux241],aux421)
+sumgeq([aux213,aux241],aux421)
+sumleq([aux214,aux242],aux422)
+sumgeq([aux214,aux242],aux422)
+sumleq([aux243,aux479],aux423)
+sumgeq([aux243,aux479],aux423)
+sumleq([aux244,aux479],aux424)
+sumgeq([aux244,aux479],aux424)
+sumleq([aux245,aux466],aux425)
+sumgeq([aux245,aux466],aux425)
+sumleq([aux246,aux466],aux426)
+sumgeq([aux246,aux466],aux426)
+sumleq([aux247,aux478],aux427)
+sumgeq([aux247,aux478],aux427)
+sumleq([aux248,aux478],aux428)
+sumgeq([aux248,aux478],aux428)
+sumleq([aux249,aux469],aux429)
+sumgeq([aux249,aux469],aux429)
+sumleq([aux250,aux469],aux430)
+sumgeq([aux250,aux469],aux430)
+sumleq([aux329,aux332,aux336,aux340,aux342,aux344,aux347,aux351,aux353,aux356],aux8)
+sumgeq([aux329,aux332,aux336,aux340,aux342,aux344,aux347,aux351,aux353,aux356],aux8)
+**EOF**

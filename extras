@@ -75,3 +75,33 @@ forAll col : RANGE .
 (sum row : int(1..BOARD_SIZE/2) . sum(result[row,..])) <= (sum row : int((BOARD_SIZE+2)/2..BOARD_SIZE) . sum(result[row,..])),
 
 (sum col : int(1..BOARD_SIZE/2) . sum(result[..,col])) <= (sum col : int((BOARD_SIZE+2)/2..BOARD_SIZE) . sum(result[..,col])),
+
+
+
+		(sum(result[row,..]) + sum(result[..,col]) + (sum  row2,col2 : RANGE . result[row2,col2]*(exists delta : int(1.. BOARD_SIZE -1) . (((row2 = row + delta) \/ (row2 = row - delta)) /\ ((col2 = col + delta) \/ (col2 = col - delta)))))) >= 1
+
+
+				(sum(result[row,..]) + sum(result[..,col]) + (exists  row2,col2 : RANGE . (result[row2,col2] != 0) /\ (|row2 - row| = |col2 - col|))) >= 1
+				vs 
+				(sum(result[row,..]) + sum(result[..,col]) + (sum  row2,col2 : RANGE . (result[row2,col2] != 0) /\ (|row2 - row| = |col2 - col|))) >= 1
+				vs
+				(sum(result[row,..]) + sum(result[..,col]) + (sum  row2,col2 : RANGE . result[row2,col2] * (|row2 - row| = |col2 - col|))) >= 1
+
+$ Minion SolverNodes: 122319
+$ Minion SolverTotalTime: 7.16249
+$ Minion SolverTimeOut: 0
+$ Savile Row TotalTime: 0.901
+
+vs
+
+$ Minion SolverNodes: 122319
+$ Minion SolverTotalTime: 3.42143
+$ Minion SolverTimeOut: 0
+$ Savile Row TotalTime: 0.945
+
+vs
+
+$ Minion SolverNodes: 122222
+$ Minion SolverTotalTime: 5.27286
+$ Minion SolverTimeOut: 0
+$ Savile Row TotalTime: 0.684

@@ -5,46 +5,24 @@ given BOARD_SIZE : int
 
 letting RANGE be domain int(1..BOARD_SIZE)
 
-$ General lower bound.
-letting minQueens1 = BOARD_SIZE/2
-
-$ Lower bound for number of queens where M can be expressed as 4k+1
-letting minQueens2 = (BOARD_SIZE%4 = 1) * (BOARD_SIZE/2 + 1)
-
-$ Take the maximum of the two
-letting minQueens = max(minQueens1, minQueens2)
-
 $ Want to find an M*M board of {0,1}, where 1 denotes the cell containing a queen.
 find result : matrix indexed by [RANGE, RANGE] of int(0,1)
 
 $ Want to find the smallest possible solution.
-$ minimising sum(flatten(result))
+minimising sum(flatten(result))
 
 such that
 
-sum(flatten(result)) = 5,
-
-$sum(flatten(result)) >= minQueens,
-
-$(sum row : int(1..BOARD_SIZE/2) . (sum col : RANGE . result[row,col]*)) <= (sum row : int((BOARD_SIZE+2)/2..BOARD_SIZE) . sum(result[row,..])),
-
-$(sum col : int(1..BOARD_SIZE/2) . sum(result[..,col])) <= (sum col : int((BOARD_SIZE+2)/2..BOARD_SIZE) . sum(result[..,col])),
-
-forAll index : int(1..BOARD_SIZE/2) .
-	result[index,..] >=lex result[BOARD_SIZE-index+1,..] \/ (sum(result[..,index]) = 0),
-
-$forAll index : int(1..BOARD_SIZE/2) .
-$	(result[..,index] <=lex result[..,BOARD_SIZE-index+1]) \/ (sum(result[..,index]) = 0) \/ (sum(result[..,BOARD_SIZE-index+1]) = 0),
-
-$ Queens do not attack each other - no more than one in each row.
+$ Queens do not attack each other.
+$ No more than one queen in each row.
 forAll row : RANGE . sum(result[row,..]) <= 1,
 
-$ And no more than one in each column.
+$ And no more than one queen in each column.
 forAll col : RANGE . sum(result[..,col]) <= 1,
 
-$ Constraint for the number of queens in top / diagonals.
-forAll row : RANGE .
-	(sum col : int(1..row) . result[row-col+1,col]) <= 1,
+$ Constraints for the number of queens in / diagonals.
+forAll diagSum : int(2..BOARD_SIZE*2) .
+	(sum row, col : RANGE . (row + col = diagSum) * result[row,col]) <=1,
 
 $ Constraint for the number of queens in bottom \ diagonals.
 forAll row : RANGE .
@@ -54,11 +32,8 @@ $ Constraints for the number of queens in the top \ diagonals.
 forAll col : RANGE .
 	(sum row : int(1..BOARD_SIZE-col+1) . result[row,row+col-1]) <= 1,
 
-$ Constraints for the number of queens in the bottom / diagonals.
-forAll col : RANGE .
-	(sum row : int(col..BOARD_SIZE) . result[row,BOARD_SIZE-row+col]) <= 1,
 
 $ All fields must be under attack.
 forAll row : RANGE .
 	forAll col : RANGE .
-		(sum(result[row,..]) + sum(result[..,col]) + (sum  row2,col2 : RANGE . result[row2,col2]*(exists delta : int(1.. BOARD_SIZE -1) . (((row2 = row + delta) \/ (row2 = row - delta)) /\ ((col2 = col + delta) \/ (col2 = col - delta)))))) >= 1
+		(sum(result[row,..]) + sum(result[..,col]) + (sum  row2,col2 : RANGE . (result[row2,col2] != 0) /\ (|row2 - row| = |col2 - col|))) >= 1

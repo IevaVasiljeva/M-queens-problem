@@ -1,0 +1,9 @@
+language ESSENCE' 1.0
+$ Minion SolverNodes: 16
+$ Minion SolverTotalTime: 2.1e-05
+$ Minion SolverTimeOut: 0
+$ Savile Row TotalTime: 0.295
+letting result be [[0, 0, 0, 1;int(1..4)], 
+[0, 1, 0, 0;int(1..4)], 
+[0, 0, 0, 0;int(1..4)], 
+[0, 0, 1, 0;int(1..4)];int(1..4)]
