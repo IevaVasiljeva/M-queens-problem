@@ -1,15 +1,15 @@
 #!/bin/bash
 
 header="M, optimisation, numNodes, SolverTime, SR time"
-outputFile="newOutput"
+outputFile="results13"
 echo "$header" >> "$outputFile"
 
-for m in `seq 1 12`;
+for optimisation in `seq 0 3`;
 do
-	echo "running for size M=$m "
-	for optimisation in `seq 0 3`;
+	for m in `seq 1 11`;
 	do
-		data="$(./savilerow ../P1/part1.eprime -params "letting BOARD_SIZE = $m" -O${optimisation} -run-solver -solutions-to-stdout)"
+	echo "	running for size M=$m "
+		data="$(./savilerow ../P1/part4.eprime -params "letting BOARD_SIZE = $m" -O${optimisation} -run-solver -solutions-to-stdout)"
 		
 		nodesE=${data##*SolverNodes: }
 		nodes=${nodesE%%\$*}
@@ -27,7 +27,7 @@ do
 		result="${m}, ${optimisation}, ${nodes}, ${solverTime}, ${srTime}"
 
 		echo "$result" >> "$outputFile"
-
-		echo "	optimisation level $optimisation is done"
 	done
+	echo "Optimisation level $optimisation is done"
+
 done

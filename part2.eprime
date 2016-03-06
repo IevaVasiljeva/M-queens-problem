@@ -1,28 +1,32 @@
 language ESSENCE' 1.0
 
+$ Takes board size as a parameter.
 given BOARD_SIZE : int
 
 letting RANGE be domain int(1..BOARD_SIZE)
 
+$ Results represented as a one-dimensional array with indexes corresponding to columns and content to rows (zero for no queen in that column).
 find result : matrix indexed by [RANGE] of int(0..BOARD_SIZE)
 
+$ We want as few queens as possible - as few non-zero column assignments as possible.
 minimising sum col : RANGE . (result[col] != 0)
 
 such that
 
-$ queens do not attack each other - one queen per column by design, imply row constraints here
+$ Queens do not attack each other. One queen per column by design.
+$ Row constraints for the number of queens.
 alldifferent_except(result,0),
 
-$ Constraints for / diagonals. Slice the elements whose row index + column index = the same number, as these represent the / diagonal
+$ Constraints for / diagonals. Slice the elements whose row index + column index = the same number, as these represent / diagonals.
 allDiff([col + result[col] | col : RANGE]),
 
-$ constraints for \ diagonals
+$ Constraints for \ diagonals.
 forAll col : int(1..BOARD_SIZE-1) .
 	forAll col2 : int(col+1..BOARD_SIZE) . ((col2 - col) != (result[col2] - result[col])),
 
-$ all fields must be under attack
+$ All fields must be under attack - loop through all and check whether there is a queen on the same column/row/diagonal.
 forAll col : RANGE .
 	forAll row : RANGE .
-		((result[col] != 0) + (sum col2 : RANGE . (row = result[col2])) + 
+		((result[col] != 0) + 
 			(exists col2 : RANGE .
-				exists delta : int(1..BOARD_SIZE-1) . ((result[col2] != 0) /\ ((row = result[col2] + delta) \/ (row = result[col2] - delta))) /\ ((col = col2 + delta) \/ (col = col2 - delta)))) >= 1
+				(row = result[col2]) \/ ((result[col2] != 0) /\ (|row - result[col2]| = |col - col2|)))) >= 1
